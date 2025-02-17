@@ -1,56 +1,54 @@
 .. title:: Home
 
-.. image:: _static/images/main-image.png
-  :alt: A placeholder image
+Here you can find the specifications and channel maps for all the headstages, adapters and EIBs produced by Open Ephys that are available through the `Open Ephys Store <https://open-ephys.org/store>`_ .
 
-|
+Check out the :ref:`guide` to understand how to use these materials.
 
-The **<device>** is <add description here>.
+Usage Manuals for each device are in the `documentation sites <https://open-ephys.org/doc-overview/>`__ of their respective acquisition systems.
+
+Headstages
+==================
+
+..  grid:: 3
+
+    ..  grid-item-card:: OEPS-7741 ONIX Headstage Ephys 64ch
+        :link-type: ref
+        :link: OEPS-7741
+        :class-card: intro-card
+        :img-top: /_static/images/OEPS-7741/main/OEPS-7741_main.jpg
+        :img-alt: OEPS-7741
+
+    ..  grid-item-card:: OEPS-6570	Low-profile SPI Headstage 64ch and Acc. (Hirose)
+        :link-type: ref
+        :link: OEPS-6570
+        :class-card: intro-card
+        :img-top: /_static/images/OEPS-6570/main/OEPS-6570_main.jpg
+        :img-alt: OEPS-6570
+
+    ..  grid-item-card:: OEPS-7745	ONIX Headstage Neuropixels 2.0e
+        :link-type: ref
+        :link: OEPS-7745
+        :class-card: intro-card
+        :img-top: /_static/images/OEPS-7745/main/OEPS-7745_main.jpg
+        :img-alt: OEPS-7745
+
+    ..  grid-item-card:: OEPS-7746	ONIX Headstage Ephys 32ch Stim 32ch
+        :link-type: ref
+        :link: OEPS-7746
+        :class-card: intro-card
+        :img-top: /_static/images/OEPS-7746/main/OEPS-7746_main.jpg
+        :img-alt: OEPS-7746
 
 
+Adapters
+==================
 
-.. raw:: html
-
-    <br>
-
-    <div class="card-columns">
-        <a class="reference internal" href="About/example1.html"><span class="std std-ref custom-card">
-        <div class="card text-center intro-card">
-            <img src="_static/images/noun_screwdriver.svg" class="card-img-top hover-zoom" alt="hardware user guide" height="100">
-            <div class="card-body flex-fill">
-                <h5 class="card-title">Topic 1</h5>
-                <p class="card-text">Description of topic.</p>
-            </div>
-        </div>
-        <a class="reference internal" href="About/example2.html"><span class="std std-ref custom-card">
-        <div class="card text-center intro-card">
-            <img src="_static/images/noun_books.svg" class="card-img-top hover-zoom" alt="hardware user guide" height="100">
-            <div class="card-body flex-fill">
-                <h5 class="card-title">Topic 2</h5>
-                <p class="card-text">Description of topic.</p>
-            </div>
-        </div>
-        <a class="reference internal" href="About/index.html"><span class="std std-ref custom-card">
-        <div class="card text-center intro-card ">
-            <img src="_static/images/paper.svg" class="card-img-top" alt="onix api references" height="100">
-            <div class="card-body flex-fill">
-                <h5 class="card-title">Topic 3</h5>
-                <p class="card-text">Description of topic.</p>
-            </div>
-        </div>
-        <a class="reference external" href="https://github.com/open-ephys" target="_blank" rel="noopener noreferrer"><span class="std std-ref custom-card">
-        <div class="card text-center intro-card">
-            <img src="_static/images/noun_macbook.svg" class="card-img-top" alt="onix software guide" height="100">
-            <div class="card-body flex-fill">
-                <h5 class="card-title">Topic 4</h5>
-                <p class="card-text">This is an external link.</p>
-            </div>
-        </div>
-    </div>
+EIBs - Electrode Interface Boards
+====================================
 
 .. toctree::
     :hidden:
     :maxdepth: 2
     :titlesonly:
 
-    About/index
+    User Guide/index
