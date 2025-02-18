@@ -1,4 +1,4 @@
-.. _OEPS-7741:
+.. _ref_OEPS-7741:
 
 OEPS-7741 ONIX Headstage Ephys 64ch (opto and curr. stim)
 =============================================================
@@ -73,12 +73,19 @@ OEPS-7741 Adapter Combination
 
     OEPS-7741 Adapter combination mounting
 
-.. figure:: /_static/images/OEPS-7741/adp/OEPS-7741_OEPS-7200_channel_map.jpg
+.. figure:: /_static/images/OEPS-7741/adp/OEPS-7741_OEPS-7200_channel_map-1.jpg
     :align: center
     :width: 70%
     :alt: OEPS-7741 Adapter combination channel map
 
-    OEPS-7741 Adapter combination channel map
+    OEPS-7741 Adapter combination channel map OPTION 1
+
+.. figure:: /_static/images/OEPS-7741/adp/OEPS-7741_OEPS-7200_channel_map-2.jpg
+    :align: center
+    :width: 70%
+    :alt: OEPS-7741 Adapter combination channel map
+
+    OEPS-7741 Adapter combination channel map OPTION 2
 
 OEPS-7741 EIB Combination
 -----------------------------

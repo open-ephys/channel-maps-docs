@@ -13,7 +13,7 @@ Headstages
 
     ..  grid-item-card:: OEPS-7741 ONIX Headstage Ephys 64ch
         :link-type: ref
-        :link: OEPS-7741
+        :link: ref_OEPS-7741
         :class-card: intro-card
         :img-top: /_static/images/OEPS-7741/main/OEPS-7741_main.jpg
         :img-alt: OEPS-7741
@@ -32,19 +32,30 @@ Headstages
         :img-top: /_static/images/OEPS-7745/main/OEPS-7745_main.jpg
         :img-alt: OEPS-7745
 
-    ..  grid-item-card:: OEPS-7746	ONIX Headstage Ephys 32ch Stim 32ch
-        :link-type: ref
-        :link: OEPS-7746
-        :class-card: intro-card
-        :img-top: /_static/images/OEPS-7746/main/OEPS-7746_main.jpg
-        :img-alt: OEPS-7746
-
 
 Adapters
 ==================
 
+..  grid:: 3
+
+    ..  grid-item-card:: OEPS-7200 Adapter Hirose to Omnetics 64ch
+        :link-type: ref
+        :link: OEPS-7200
+        :class-card: intro-card
+        :img-top: /_static/images/OEPS-7200/main/OEPS-7200_main.jpg
+        :img-alt: OEPS-7200
+
 EIBs - Electrode Interface Boards
 ====================================
+
+..  grid:: 3
+
+    ..  grid-item-card:: OEPS-6813 ShuttleDrive 64-ch Hirose EIB
+        :link-type: ref
+        :link: OEPS-6813
+        :class-card: intro-card
+        :img-top: /_static/images/OEPS-6813/main/OEPS-6813_main.jpg
+        :img-alt: OEPS-6813
 
 .. toctree::
     :hidden:
