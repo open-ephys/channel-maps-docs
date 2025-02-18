@@ -43,6 +43,7 @@ release = "0.0.0"
 extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.githubpages',
+    'sphinx_design'
 ]
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
@@ -87,7 +88,7 @@ html_title = project
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
 
-html_style = "_static/theme_overrides.css"
+html_style = "theme_overrides.css"
 
 html_sidebars = {
     'index': ['search-field.html'],
@@ -218,7 +219,7 @@ html_context = {
     "github_repo": "doc-template",
     "github_version": "main",
     "doc_path": "source",
-    "css_files": ["_static/theme_overrides.css",],
+    # "css_files": ["_static/theme_overrides.css", "_static/sphinx-design.min.css"],
     'default_mode': 'light'
 }
 
