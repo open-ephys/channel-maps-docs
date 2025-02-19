@@ -1,6 +1,6 @@
 .. title:: Home
 
-Here you can find the specifications and channel pinout for all the headstages, adapters and EIBs produced by Open Ephys that are available through the `Open Ephys Store <https://open-ephys.org/store>`_ .
+Here you can find the specifications and channel mapping for all the headstages, adapters and EIBs produced by Open Ephys that are available through the `Open Ephys Store <https://open-ephys.org/store>`_ .
 
 Check out the :ref:`guide` to understand how to use these materials.
 
@@ -13,7 +13,7 @@ Headstages
 
     ..  grid-item-card:: OEPS-7741 ONIX Headstage Ephys 64ch
         :link-type: ref
-        :link: ref_OEPS-7741
+        :link: ref_oeps-7741
         :class-card: intro-card
         :img-top: /_static/images/OEPS-7741/main/OEPS-7741_main.jpg
         :img-alt: OEPS-7741

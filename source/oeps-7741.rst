@@ -1,4 +1,4 @@
-.. _ref_OEPS-7741:
+.. _ref_oeps-7741:
 
 OEPS-7741 ONIX Headstage Ephys 64ch (opto and curr. stim)
 =============================================================
