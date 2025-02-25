@@ -27,7 +27,7 @@ OEPS-7741 ONIX Headstage Ephys 64ch (opto and curr. stim)
     :width: 70%
     :alt: OEPS-7741 Channel map
 
-    OEPS-7741 Channel map
+    OEPS-7741 Channel map of Intan chip channels. For Open Ephys GUI channel numbers, add 1.
 
 .. figure:: /_static/images/OEPS-7741/main/OEPS-7741_imu.jpg
     :align: center
