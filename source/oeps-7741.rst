@@ -43,14 +43,6 @@ OEPS-7741 ONIX Headstage Ephys 64ch (opto and curr. stim)
 
     OEPS-7741 Additional vias
 
-.. figure:: /_static/images/OEPS-7741/main/OEPS-7741_voltage.jpg
-    :align: center
-    :width: 70%
-    :alt: OEPS-7741 Voltage testing points
-
-    OEPS-7741 Voltage testing points
-
-
 OEPS-7741 Adapter Combination
 -------------------------------------
 
