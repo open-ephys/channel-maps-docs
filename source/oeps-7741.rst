@@ -14,8 +14,8 @@ OEPS-7741 ONIX Headstage Ephys 64ch (opto and curr. stim)
    :widths: 18, 80
 
    "*Acquisition System*", "ONIX"
-   "*Dimensions*", "1.5 g"
-   "*Weight*", "18.6 mm"
+   "*Dimensions*", "18.6 mm"
+   "*Weight*", "1.5 g"
    "*Connector*", "1x Hirose DF40C-70DP-0.4V(51): 70 position"
    "*Operating voltage*", "5 - 6.3V"
    "*REF and GND*", "Are tied together via the R29 0 Ohm resistor"
@@ -27,14 +27,7 @@ OEPS-7741 ONIX Headstage Ephys 64ch (opto and curr. stim)
     :width: 70%
     :alt: OEPS-7741 Channel map
 
-    OEPS-7741 Channel map
-
-.. figure:: /_static/images/OEPS-7741/main/OEPS-7741_connector_pinout.jpg
-    :align: center
-    :width: 70%
-    :alt: OEPS-7741 Connector pinout
-
-    OEPS-7741 Connector pinout
+    OEPS-7741 Channel map of Intan chip channels. For Open Ephys GUI channel numbers, add 1.
 
 .. figure:: /_static/images/OEPS-7741/main/OEPS-7741_imu.jpg
     :align: center
@@ -50,14 +43,6 @@ OEPS-7741 ONIX Headstage Ephys 64ch (opto and curr. stim)
 
     OEPS-7741 Additional vias
 
-.. figure:: /_static/images/OEPS-7741/main/OEPS-7741_voltage.jpg
-    :align: center
-    :width: 70%
-    :alt: OEPS-7741 Voltage testing points
-
-    OEPS-7741 Voltage testing points
-
-
 OEPS-7741 Adapter Combination
 -------------------------------------
 
@@ -68,24 +53,17 @@ OEPS-7741 Adapter Combination
 
 .. figure:: /_static/images/OEPS-7741/adp/OEPS-7741_OEPS-7200_mounting.jpg
     :align: center
-    :width: 70%
+    :width: 100%
     :alt: OEPS-7741 Adapter combination mounting
 
     OEPS-7741 Adapter combination mounting
 
-.. figure:: /_static/images/OEPS-7741/adp/OEPS-7741_OEPS-7200_channel_map-1.jpg
+.. figure:: /_static/images/OEPS-7741/adp/OEPS-7741_OEPS-7200_channel_map.jpg
     :align: center
     :width: 70%
     :alt: OEPS-7741 Adapter combination channel map
 
-    OEPS-7741 Adapter combination channel map OPTION 1
-
-.. figure:: /_static/images/OEPS-7741/adp/OEPS-7741_OEPS-7200_channel_map-2.jpg
-    :align: center
-    :width: 70%
-    :alt: OEPS-7741 Adapter combination channel map
-
-    OEPS-7741 Adapter combination channel map OPTION 2
+    OEPS-7741 Adapter combination channel map
 
 OEPS-7741 EIB Combination
 -----------------------------
@@ -97,7 +75,7 @@ OEPS-7741 EIB Combination
 
 .. figure:: /_static/images/OEPS-7741/eib/OEPS-7741_OEPS-6813_mounting.jpg
     :align: center
-    :width: 70%
+    :width: 100%
     :alt: OEPS-7741 EIB combination mounting
 
     OEPS-7741 EIB combination mounting
@@ -109,8 +87,17 @@ OEPS-7741 EIB Combination
 
     OEPS-7741 EIB combination channel map
 
-OEPS-7741 Channel Mapping Tables
-----------------------------------------
+OEPS-7741 Channel Mapping Tables and Connector Pinout
+----------------------------------------------------------------------
+
+To construct other channel maps, take a look at the connector pinout and channel mapping table below.
+
+.. figure:: /_static/images/OEPS-7741/main/OEPS-7741_connector_pinout.jpg
+    :align: center
+    :width: 70%
+    :alt: OEPS-7741 Connector pinout
+
+    OEPS-7741 Connector pinout
 
 .. raw:: html
 
