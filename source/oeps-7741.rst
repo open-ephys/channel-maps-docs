@@ -68,7 +68,7 @@ OEPS-7741 Adapter Combination
 
 .. figure:: /_static/images/OEPS-7741/adp/OEPS-7741_OEPS-7200_mounting.jpg
     :align: center
-    :width: 70%
+    :width: 100%
     :alt: OEPS-7741 Adapter combination mounting
 
     OEPS-7741 Adapter combination mounting
@@ -90,7 +90,7 @@ OEPS-7741 EIB Combination
 
 .. figure:: /_static/images/OEPS-7741/eib/OEPS-7741_OEPS-6813_mounting.jpg
     :align: center
-    :width: 70%
+    :width: 100%
     :alt: OEPS-7741 EIB combination mounting
 
     OEPS-7741 EIB combination mounting
