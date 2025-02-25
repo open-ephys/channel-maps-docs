@@ -29,13 +29,6 @@ OEPS-7741 ONIX Headstage Ephys 64ch (opto and curr. stim)
 
     OEPS-7741 Channel map
 
-.. figure:: /_static/images/OEPS-7741/main/OEPS-7741_connector_pinout.jpg
-    :align: center
-    :width: 70%
-    :alt: OEPS-7741 Connector pinout
-
-    OEPS-7741 Connector pinout
-
 .. figure:: /_static/images/OEPS-7741/main/OEPS-7741_imu.jpg
     :align: center
     :width: 70%
@@ -102,8 +95,17 @@ OEPS-7741 EIB Combination
 
     OEPS-7741 EIB combination channel map
 
-OEPS-7741 Channel Mapping Tables
-----------------------------------------
+OEPS-7741 Channel Mapping Tables and Connector Pinout
+----------------------------------------------------------------------
+
+To construct other channel maps, take a look at the connector pinout and channel mapping table below.
+
+.. figure:: /_static/images/OEPS-7741/main/OEPS-7741_connector_pinout.jpg
+    :align: center
+    :width: 70%
+    :alt: OEPS-7741 Connector pinout
+
+    OEPS-7741 Connector pinout
 
 .. raw:: html
 
