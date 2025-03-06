@@ -62,3 +62,5 @@ EIBs - Electrode Interface Boards
     :titlesonly:
 
     User Guide/index
+    oeps-7741
+    oeps-7741-template-generated
