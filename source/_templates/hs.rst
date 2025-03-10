@@ -2,7 +2,7 @@
 {{ sku }}
 =============================================================
 
-..  figure:: /_static/images/{{ sku }}/main/isometric.jpg
+..  figure:: /_static/images/{{ sku }}/main/{{ sku }}_isometric.jpg
     :align: center
     :width: 60%
     :alt: {{ sku }} ONIX Headstage Ephys 64ch (opto and curr. stim)
@@ -10,7 +10,9 @@
 ..   csv-table::
     :widths: 20, 80
 
-    "*Acquisition System*", "{{ hs_data[sku]['acquisition_system'] }}"
+    {% if hs_data[sku]['acquisition_system'] %}
+        "*Acquisition System*", "{{ hs_data[sku]['acquisition_system'] }}"
+    {% endif %}
     "*Dimensions*", "{{ hs_data[sku]['dimensions'] }}"
     "*Weight*", "{{ hs_data[sku]['mass'] }}"
     "*Connector*", "{{ hs_data[sku]['ephys_connector'] }}"
@@ -18,7 +20,7 @@
     "*REF and GND*", "{{ hs_data[sku]['ref_gnd'] }}"
     "*Source Files*", "{{ hs_data[sku]['src_repo'] }}"
 
-..  figure:: /_static/images/{{ sku }}/main/channel_map.jpg
+..  figure:: /_static/images/{{ sku }}/main/{{ sku }}_channel_map.jpg
     :align: center
     :width: 70%
     :alt: {{ sku }} Channel map

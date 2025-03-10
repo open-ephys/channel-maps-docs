@@ -218,7 +218,6 @@ with open('hs.csv', mode='r') as hs_csv:
     hs_data = {}
     for row in hs_csv_data:
         hs_data[row['sku']] = {key: value for key, value in row.items() if key not in 'sku'}
-        print(hs_data[row['sku']])
 
 html_context = {
     "github_user": "open-ephys",

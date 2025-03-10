@@ -1,2 +1,2 @@
-{% with sku = 'OEPS-7741' %} 
+{% with sku = 'OEPS-7740' %} 
 {% include 'hs.rst' %} {% endwith %}
