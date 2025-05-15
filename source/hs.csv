@@ -1,0 +1,3 @@
+sku, acquisition_system, dimensions, mass, tether_connector, operating_voltage,probe_connector, ref_gnd, src_repo,release
+OEPS-7741, ONIX, 18.6mm diameter, 1.5 g, U.Fl, 5 - 6.3 V, 1x Hirose DF40C-70DP-0.4V(51), Shorted by R29, https://github.com/open-ephys/onix-headstage-64,1.3B
+OEPS-7740,, 18.6mm diameter, 1.5 g, U.Fl, 5 - 6.3 V, 1x Hirose DF40C-70DP-0.4V(51), Shorted by R29,,
