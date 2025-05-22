@@ -1,3 +1,11 @@
-sku, acquisition_system, dimensions, mass, tether_connector, operating_voltage,probe_connector, ref_gnd, src_repo,release
-OEPS-7741, ONIX, 18.6mm diameter, 1.5 g, U.Fl, 5 - 6.3 V, 1x Hirose DF40C-70DP-0.4V(51), Shorted by R29, https://github.com/open-ephys/onix-headstage-64,1.3B
-OEPS-7740,, 18.6mm diameter, 1.5 g, U.Fl, 5 - 6.3 V, 1x Hirose DF40C-70DP-0.4V(51), Shorted by R29,,
+sku, acquisition_system, dimensions, mass, tether_connector, operating_voltage,probe_connector, ref_gnd,mounting_hole, src_repo,release
+OEPS-7741, ONIX, 18.6mm diameter, 1.5 g, U.Fl, 5 - 6.3 V, 1x Hirose DF40C-70DP-0.4V(51),REF and GND are tied together. Shorted by R29,n/a, https://github.com/open-ephys/onix-headstage-64,1.3B
+OEPS-7743, ONIX,12.6 x 16 mm,0.68 g, U.Fl,,,,dimensions,,
+OEPS-7745, ONIX,10.2 x 14.2 mm,0.64 g, U.Fl,,,,dimensions,,
+OEPS-7746, ONIX,15.2 x 29 mm,1.75 g, X.Fl,,,,dimensions,https://github.com/open-ephys/onix-headstage-rhs2116,
+OEPS-6570,Acquisition board,, 1.5 g,12-pin RHD SPI cable connector,, 1x Hirose DF40C-70DP-0.4V(51),,n/a,https://github.com/open-ephys/low-profile-spi-headstage-64ch,
+OEPS-6571,Acquisition board,,,12-pin RHD SPI cable connector,, 1x Hirose DF40C-70DP-0.4V(51),,n/a,https://github.com/open-ephys/low-profile-3d-headstage-64ch,
+OEPS-6573,Acquisition board,,,12-pin RHD SPI cable connector,,"1x Omnetics A79025: 36 pins, 4 guide posts ",,dimensions,,
+OEPS-6574,Acquisition board,,,12-pin RHD SPI cable connector,,"1x Omnetics A79025: 36 pins, 4 guide posts ",,dimensions,,
+OEPS-6576,Acquisition board,,,12-pin RHD SPI cable connector,,"1x Omnetics A79025: 36 pins, 4 guide posts ",,dimensions,,
+OEPS-6577,Acquisition board,,,12-pin RHD SPI cable connector,,"1x Omnetics A79025: 36 pins, 4 guide posts ",,dimensions,,
