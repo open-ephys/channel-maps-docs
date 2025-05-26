@@ -7,18 +7,20 @@
     :width: 60%
 
 ..   csv-table::
-    :widths: 20, 80
+    :widths: 19, 50
 
-    "*Acquisition System*", "{{ hs_data[sku]['acquisition_system'] }}"
-    "*Dimensions*", "{{ hs_data[sku]['dimensions'] }}"
-    "*Weight*", "{{ hs_data[sku]['mass'] }}"
-    "*Probe connector*", "{{ hs_data[sku]['probe_connector'] }}"
-    "*Tether connector*", "{{ hs_data[sku]['tether_connector'] }}"
-    "*Operating voltage*", "{{ hs_data[sku ]['operating_voltage'] }}"
-    "*REF and GND*", "{{ hs_data[sku]['ref_gnd'] }}"
-    "*Mounting hole*", "{{ hs_data[sku]['mounting_hole'] }}"
-    "*Source Files*", "{{ hs_data[sku]['src_repo'] }}"
-    "*Release*", "{{ hs_data[sku]['release'] }}"
+    "**Acquisition System**", "{{ hs_data[sku]['acquisition_system'] }}"
+    "**Dimensions**", "{{ hs_data[sku]['dimensions'] }}"
+    "**Weight**", "{{ hs_data[sku]['mass'] }}"
+    "**Probe connector**", "{{ hs_data[sku]['probe_connector'] }}"
+    "**Tether connector**", "{{ hs_data[sku]['tether_connector'] }}"
+    "**Operating voltage**", "{{ hs_data[sku ]['operating_voltage'] }}"
+    "**REF and GND**", "{{ hs_data[sku]['ref_gnd'] }}"
+    {%- if hs_data[sku]['mounting_hole'] %}
+    "**Mounting hole**", "{{ hs_data[sku]['mounting_hole'] }}"
+    {%- endif %}
+    "**Source Files**", "{{ hs_data[sku]['src_repo'] }}"
+    "**Release**", "{{ hs_data[sku]['release'] }}"
 
 ..  figure:: /_static/images/{{ sku }}/main/{{ sku }}_channel_map.jpg
     :align: center
@@ -36,9 +38,9 @@
 -----------------------------
 
 ..  csv-table::
-    :widths: 18, 80
+    :widths: 19, 50
 
-    "*Compatible EIB*", "OEPS-6813 ShuttleDrive 64-ch Hirose EIB"
+    "**Compatible EIB**", "OEPS-6813 ShuttleDrive 64-ch Hirose EIB"
 
 ..  figure:: /_static/images/{{ sku }}/eib/{{ sku }}_OEPS-6813_mounting.jpg
     :align: center
@@ -56,9 +58,9 @@
 -----------------------------
 
 ..  csv-table::
-    :widths: 18, 80
+    :widths: 19, 50
 
-    "*Compatible Adapter*", "OEPS-7200 Adapter Hirose to Omnetics 64ch"
+    "**Compatible Adapter**", "OEPS-7200 Adapter Hirose to Omnetics 64ch"
 
 ..  figure:: /_static/images/{{ sku }}/adp/{{ sku }}_OEPS-7200_mounting.jpg
     :align: center
@@ -72,8 +74,12 @@
 
     {{ sku }} Adapter combination channel map
 
+
+Other combinations
+------------------
+
 To construct other channel maps, take a look at the channel mapping table and connector pinout.
 
 ..  raw:: html
 
-    <center><iframe width="800" height="1200" scrolling='yes' src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSxEZVG5xytX9CU5a87evB-YSvePfsPWiUGv_nH_SoK7Be4nRgFMId30PxKsUkr2QmLoIl2BF-KabnA/pubhtml?gid=0&single=true"></iframe></center>
+    <center><div style="margin-top: 50px;"><iframe width="800" height="1200" scrolling='yes' src="https://docs.google.com/spreadsheets/d/1WYDymxNqGRtFPxn69H9JzeMgePpXcFSPHiWJYBE0lu4/edit?gid=0#gid=0"></iframe></div></center>
