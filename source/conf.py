@@ -1,4 +1,5 @@
 from datetime import datetime, timezone
+import csv
 
 # -*- coding: utf-8 -*-
 #
@@ -43,7 +44,7 @@ release = "0.0.0"
 extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.githubpages',
-    'sphinx_design'
+    'sphinx_design',
 ]
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
@@ -70,8 +71,6 @@ exclude_patterns = []
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = None
-
-todo_include_todos = True
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -187,7 +186,7 @@ html_theme_options = {
     "navbar_end": ["navbar-icon-links"],
     "navbar_align": "content",
     "footer_start": ["copyright"],
-     "external_links": [{"name": "Open Ephys", "url": "https://open-ephys.org"},],
+    "external_links": [{"name": "Open Ephys", "url": "https://open-ephys.org"},],
     'icon_links': [
         dict(name='GitHub',
              url='https://github.com/open-ephys/doc-template',
@@ -214,14 +213,38 @@ html_theme_options = {
 }
 html_favicon = "_static/images/favicon.png"
 
+with open('hs.csv', mode='r') as hs_csv:
+    hs_csv_data = csv.DictReader(hs_csv, skipinitialspace=True, strict=True)
+    hs_data = {}
+    for row in hs_csv_data:
+        hs_data[row['sku']] = {key: value for key, value in row.items() if key not in 'sku'}
+
 html_context = {
     "github_user": "open-ephys",
     "github_repo": "doc-template",
     "github_version": "main",
     "doc_path": "source",
-    # "css_files": ["_static/theme_overrides.css", "_static/sphinx-design.min.css"],
-    'default_mode': 'light'
+    'default_mode': 'light',
+    'hs_data': hs_data
 }
 
 # Option for linkcheck
 linkcheck_anchors = False
+
+def rstjinja(app, docname, source):
+    """
+    Render our pages as a jinja template for fancy templating goodness.
+    """
+    # Make sure we're outputting HTML
+    if app.builder.format != 'html':
+        return
+    src = source[0]
+    rendered = app.builder.templates.render_string(
+        src, app.config.html_context
+    )
+    source[0] = rendered
+
+def setup(app):
+    app.connect("source-read", rstjinja)
+
+
