@@ -7,7 +7,7 @@
     :width: 60%
 
 ..   csv-table::
-    :widths: 19, 50
+    :widths: 15, 50
 
     "**Acquisition System**", "{{ hs_data[sku]['acquisition_system'] }}"
     "**Dimensions**", "{{ hs_data[sku]['dimensions'] }}"
@@ -17,9 +17,9 @@
     "**Operating voltage**", "{{ hs_data[sku ]['operating_voltage'] }}"
     "**REF and GND**", "{{ hs_data[sku]['ref_gnd'] }}"
     {%- if hs_data[sku]['mounting_hole'] %}
-    "**Mounting hole**", "{{ hs_data[sku]['mounting_hole'] }}"
+    "**Structural Opening**", "{{ hs_data[sku]['mounting_hole'] }}"
     {%- endif %}
-    "**Source Files**", "{{ hs_data[sku]['src_repo'] }}"
+    "**Source File**", "{{ hs_data[sku]['src_repo'] }}"
     "**Release**", "{{ hs_data[sku]['release'] }}"
 
 ..  figure:: /_static/images/{{ sku }}/main/{{ sku }}_channel_map.jpg

@@ -82,8 +82,8 @@ Headstages
         :img-top: /_static/images/OEPS-6577/main/OEPS-6577_main.jpg
         :img-alt: OEPS-6577
 
-Adapters
-==================
+Adapters - *coming soon*
+===========================
 
 ..  grid:: 4
     :gutter: 4
@@ -95,8 +95,8 @@ Adapters
         :img-top: /_static/images/OEPS-7200/main/OEPS-7200_main.jpg
         :img-alt: OEPS-7200
 
-EIBs - Electrode Interface Boards
-====================================
+EIBs - Electrode Interface Boards - *coming soon*
+====================================================
 
 ..  grid:: 4
     :gutter: 4

@@ -7,7 +7,7 @@
     :width: 60%
 
 ..   csv-table::
-    :widths: 19, 50
+    :widths: 15, 50
 
     "**Acquisition System**", "{{ hs_data[sku]['acquisition_system'] }}"
     "**Dimensions**", "{{ hs_data[sku]['dimensions'] }}"
@@ -17,9 +17,9 @@
     "**Operating voltage**", "{{ hs_data[sku ]['operating_voltage'] }}"
     "**REF and GND**", "{{ hs_data[sku]['ref_gnd'] }}"
     {%- if hs_data[sku]['mounting_hole'] %}
-    "**Mounting hole**", "{{ hs_data[sku]['mounting_hole'] }}"
+    "**Structural Opening**", "{{ hs_data[sku]['mounting_hole'] }}"
     {%- endif %}
-    "**Source Files**", "{{ hs_data[sku]['src_repo'] }}"
+    "**Source File**", "{{ hs_data[sku]['src_repo'] }}"
     "**Release**", "{{ hs_data[sku]['release'] }}"
 
 ..  figure:: /_static/images/{{ sku }}/main/{{ sku }}_channel_map.jpg
@@ -28,32 +28,27 @@
 
     {{ sku }} Channel map. For Open Ephys GUI channel numbers, add 1.
 
-..  figure:: /_static/images/{{ sku }}/main/{{ sku }}_axes.jpg
-    :align: center
-    :width: 70%
+.. Add this section when pictures and channel maps are done
 
-    {{ sku }} IMU axes
-
-{{ sku }} EIB Combination
------------------------------
-
-..  csv-table::
-    :widths: 19, 50
-
-    "**Compatible EIB**", "OEPS-6809 ShuttleDrive 32-ch Omnetics EIB"
-
-..  figure:: /_static/images/{{ sku }}/eib/{{ sku }}_OEPS-6809_mounting.jpg
-    :align: center
-    :width: 100%
-
-    {{ sku }} EIB combination mounting
-
-..  figure:: /_static/images/{{ sku }}/eib/{{ sku }}_OEPS-6809_channel_map.jpg
-    :align: center
-    :width: 70%
-
-    {{ sku }} EIB combination channel map
-
+.. {{ sku }} EIB Combination
+.. -----------------------------
+..
+.. .. csv-table::)
+..     :widths: 15, 50
+..
+..     "**Compatible EIB**", "OEPS-6809 ShuttleDrive 32-ch Omnetics EIB"
+..
+.. .. figure:: /_static/images/{{ sku }}/eib/{{ sku }}_OEPS-6809_mounting.jpg
+..     :align: center
+..     :width: 100%
+..
+..     {{ sku }} EIB combination mounting
+..
+.. .. figure:: /_static/images/{{ sku }}/eib/{{ sku }}_OEPS-6809_channel_map.jpg
+..     :align: center
+..     :width: 70%
+..
+..     {{ sku }} EIB combination channel map
 
 Other combinations
 ------------------
