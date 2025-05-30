@@ -1,4 +1,4 @@
-SPI Headstage 32ch
+SPI Headstage 32ch (Accelerometer)
 ===================
 {% with sku = 'OEPS-6573' %} 
 {% include 'hs spi template eib 6809 no adp.rst' %} {% endwith %}
