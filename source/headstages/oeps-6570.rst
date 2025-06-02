@@ -1,4 +1,6 @@
+.. _oeps-6570:
+
 Low-profile SPI Headstages 64ch (Accelerometer)
-===============================
+================================================
 {% with sku = 'OEPS-6570' %} 
 {% include 'hs spi template eib 6813 adp 7200.rst' %} {% endwith %}

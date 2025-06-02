@@ -1,3 +1,5 @@
+.. _oeps-7746:
+
 ONIX Headstage 32ch Stim/Record
 =====================================
 {% with sku = 'OEPS-7746' %} 

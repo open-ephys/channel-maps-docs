@@ -1,3 +1,5 @@
+.. _oeps-6576:
+
 SPI Headstage 32ch (3D)
 ===========================
 {% with sku = 'OEPS-6576' %} 
