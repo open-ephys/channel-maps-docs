@@ -1,5 +1,3 @@
-.. _oeps-6577:
-
 SPI Headstage 16ch bipolar (3D)
 ===================================
 {% with sku = 'OEPS-6577' %} 

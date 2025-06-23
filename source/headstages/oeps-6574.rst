@@ -1,5 +1,3 @@
-.. _oeps-6574:
-
 SPI Headstage 16ch bipolar (Accelerometer)
 ============================================
 {% with sku = 'OEPS-6574' %} 

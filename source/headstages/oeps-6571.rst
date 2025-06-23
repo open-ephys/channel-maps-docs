@@ -1,5 +1,3 @@
-.. _oeps-6571:
-
 Low-profile SPI Headstages 64ch (3D)
 =======================================
 {% with sku = 'OEPS-6571' %} 

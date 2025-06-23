@@ -1,5 +1,3 @@
-.. _oeps-6573:
-
 SPI Headstage 32ch (Accelerometer)
 ====================================
 {% with sku = 'OEPS-6573' %} 

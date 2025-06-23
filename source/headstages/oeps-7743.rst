@@ -1,5 +1,3 @@
-.. _oeps-7743:
-
 ONIX Headstage Neuropixels 1.0e
 ================================
 {% with sku = 'OEPS-7743' %} 
