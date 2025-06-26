@@ -1,0 +1,58 @@
+name: Build Documentation
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12.1"
+
+      - name: Install pipenv and dependencies
+        run: |
+          python -m pip install --upgrade pipenv wheel
+          pipenv install --deploy --dev
+
+      - name: Build HTML pages
+        id: make_html
+        run: |
+          pipenv run make html SPHINXOPTS="-W --keep-going" # -W: Fail on warnings. --keep-going: Continue processing on warnings, but fail at the end
+
+      - name: Check all external links
+        id: make_linkcheck
+        run: |
+          pipenv run make linkcheck SPHINXOPTS="-W --keep-going"
+
+      - name: Upload GitHub Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/html/
+
+  deploy:
+    name: Deploy docs
+    runs-on: ubuntu-22.04
+    needs: build
+    if: github.event_name == 'push' && always() && !failure() && !cancelled()
+    
+    permissions:
+      # Both required by actions/deploy-pages
+      pages: write
+      id-token: write
+      
+    steps:
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4

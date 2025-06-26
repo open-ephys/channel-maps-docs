@@ -22,7 +22,7 @@ import csv
 
 # -- Project information -----------------------------------------------------
 
-project = "Open Ephys Doc Template"
+project = "Channel Maps"
 copyright = "2010-{}, Open Ephys & Contributors".format(datetime.now(timezone.utc).year)
 author = "Open Ephys & Contributors"
 
@@ -184,7 +184,7 @@ html_theme_options = {
     'use_edit_page_button': True,
     "navigation_with_keys": True,
     "navbar_end": ["navbar-icon-links"],
-    "navbar_align": "content",
+    "navbar_align": "left",
     "footer_start": ["copyright"],
     "external_links": [{"name": "Open Ephys", "url": "https://open-ephys.org"},],
     'icon_links': [
@@ -213,7 +213,7 @@ html_theme_options = {
 }
 html_favicon = "_static/images/favicon.png"
 
-with open('hs.csv', mode='r') as hs_csv:
+with open('headstages/hs.csv', mode='r') as hs_csv:
     hs_csv_data = csv.DictReader(hs_csv, skipinitialspace=True, strict=True)
     hs_data = {}
     for row in hs_csv_data:
@@ -230,6 +230,10 @@ html_context = {
 
 # Option for linkcheck
 linkcheck_anchors = False
+
+# linkcheck_ignore = [
+#     r'^(?:(?!https:\/\/).)*$' # NB: https://regex101.com/r/Hy4K96/1, this should match all internal links that do not begin with `https://`
+# ]
 
 def rstjinja(app, docname, source):
     """
