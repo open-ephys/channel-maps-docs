@@ -32,7 +32,11 @@
     :align: center
     :width: 70%
 
+    {% if sku == 'OEPS-6574' %}
+    {{ sku }} Accelerometer axes
+    {% else %}
     {{ sku }} IMU axes
+    {% endif %}
 
 
 Other combinations

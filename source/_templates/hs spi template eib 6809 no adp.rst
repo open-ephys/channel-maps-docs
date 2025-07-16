@@ -32,7 +32,11 @@
     :align: center
     :width: 70%
 
+    {% if sku == 'OEPS-6573' %}
+    {{ sku }} Accelerometer axes
+    {% else %}
     {{ sku }} IMU axes
+    {% endif %}
 
 .. Add this section when pictures and channel maps are done
 

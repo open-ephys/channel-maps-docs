@@ -32,7 +32,11 @@
     :align: center
     :width: 70%
 
+    {% if sku == 'OEPS-6570' %}
+    {{ sku }} Accelerometer axes
+    {% else %}
     {{ sku }} IMU axes
+    {% endif %}
 
 {{ sku }} EIB Combination
 -----------------------------
