@@ -28,6 +28,17 @@
 
     {{ sku }} Channel map. For Open Ephys GUI channel numbers, add 1.
 
+{% if sku == 'OEPS-7741' %}
+.. dropdown:: Channel map if your data were acquired using version 0.4.5 of the Bonsai.Onix1 library
+
+   .. figure:: /_static/images/OEPS-7741/main/OEPS-7741_channel_map_v0.4.5.jpg
+      :align: center
+      :width: 70%
+
+      {{ sku }} Channel map. For Open Ephys GUI channel number, add 1.
+
+{% endif %}
+
 ..  figure:: /_static/images/{{ sku }}/main/{{ sku }}_axes.jpg
     :align: center
     :width: 70%
