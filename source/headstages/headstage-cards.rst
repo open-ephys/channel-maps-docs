@@ -57,14 +57,6 @@
         :img-top: /_static/images/OEPS-6573/main/OEPS-6573_main.jpg
         :img-alt: OEPS-6573
 
-    ..  grid-item-card:: OEPS-6574 SPI Headstage 16ch bipolar
-        :link-type: doc
-        :link: /headstages/oeps-6574
-        :text-align: center
-        :class-card: intro-card
-        :img-top: /_static/images/OEPS-6574/main/OEPS-6574_main.jpg
-        :img-alt: OEPS-6574
-
     ..  grid-item-card:: OEPS-6576 SPI Headstage 32ch with 3D
         :link-type: doc
         :link: /headstages/oeps-6576
@@ -72,6 +64,14 @@
         :class-card: intro-card
         :img-top: /_static/images/OEPS-6576/main/OEPS-6576_main.jpg
         :img-alt: OEPS-6576
+
+    ..  grid-item-card:: OEPS-6574 SPI Headstage 16ch bipolar
+        :link-type: doc
+        :link: /headstages/oeps-6574
+        :text-align: center
+        :class-card: intro-card
+        :img-top: /_static/images/OEPS-6574/main/OEPS-6574_main.jpg
+        :img-alt: OEPS-6574
 
     ..  grid-item-card:: OEPS-6577 SPI Headstage 16ch bipolar with 3D
         :link-type: doc
