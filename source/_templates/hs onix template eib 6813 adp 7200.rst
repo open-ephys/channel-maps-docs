@@ -29,7 +29,7 @@
     {{ sku }} Channel map. For Open Ephys GUI channel numbers, add 1.
 
 {% if sku == 'OEPS-7741' %}
-.. dropdown:: Channel map if your data were acquired using version 0.4.5 of the Bonsai.Onix1 library
+.. dropdown:: Channel map if your data were acquired using up to version 0.4.5 of the Bonsai.Onix1 library
 
    .. figure:: /_static/images/OEPS-7741/main/OEPS-7741_channel_map_v0.4.5.jpg
       :align: center
@@ -65,6 +65,18 @@
 
     {{ sku }} EIB combination channel map
 
+{% if sku == 'OEPS-7741' %}
+.. dropdown:: Channel map if your data were acquired using up to version 0.4.5 of the Bonsai.Onix1 library
+
+   .. figure:: /_static/images/OEPS-7741/eib/OEPS-7741_OEPS-6813_channel_map_v0.4.5.jpg
+      :align: center
+      :width: 70%
+
+      {{ sku }} EIB combination channel map
+
+{% endif %}
+
+
 {{ sku }} Adapter Combination
 -----------------------------
 
@@ -85,6 +97,16 @@
 
     {{ sku }} Adapter combination channel map
 
+{% if sku == 'OEPS-7741' %}
+.. dropdown:: Channel map if your data were acquired using up to version 0.4.5 of the Bonsai.Onix1 library
+
+   .. figure:: /_static/images/OEPS-7741/adp/OEPS-7741_OEPS-7200_channel_map_v0.4.5.jpg
+      :align: center
+      :width: 70%
+
+      {{ sku }} Adapter combination channel map
+
+{% endif %}
 
 Other combinations
 ------------------
