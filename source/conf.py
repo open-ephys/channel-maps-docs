@@ -189,11 +189,11 @@ html_theme_options = {
     "external_links": [{"name": "Open Ephys", "url": "https://open-ephys.org"},],
     'icon_links': [
         dict(name='GitHub',
-             url='https://github.com/open-ephys/doc-template',
+             url='https://github.com/open-ephys/channel-maps-docs',
              icon='fab fa-github'),
-        dict(name='Twitter',
-             url='https://twitter.com/openephys',
-             icon='fab fa-twitter'),
+        dict(name='Bluesky',
+             url='https://bsky.app/profile/open-ephys.org',
+             icon='fab fa-bluesky'),
         dict(name='Discord',
              url='https://discord.gg/WXAx2URNQU',
              icon='fab fa-discord')
