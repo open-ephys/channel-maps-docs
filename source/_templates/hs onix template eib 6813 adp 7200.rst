@@ -19,7 +19,7 @@
     {%- if hs_data[sku]['mounting_hole'] %}
     "**Structural Opening**", "{{ hs_data[sku]['mounting_hole'] }}"
     {%- endif %}
-    "**Source File**", "{{ hs_data[sku]['src_repo'] }}"
+    "**Source Files**", "{{ hs_data[sku]['src_repo'] }}"
     "**Release**", "{{ hs_data[sku]['release'] }}"
 
 ..  figure:: /_static/images/{{ sku }}/main/{{ sku }}_channel_map.jpg
@@ -27,6 +27,17 @@
     :width: 70%
 
     {{ sku }} Channel map. For Open Ephys GUI channel numbers, add 1.
+
+{% if sku == 'OEPS-7741' %}
+.. dropdown:: Channel map if your data were acquired using up to version 0.4.5 of the Bonsai.Onix1 library
+
+   .. figure:: /_static/images/OEPS-7741/main/OEPS-7741_channel_map_v0.4.5.jpg
+      :align: center
+      :width: 70%
+
+      {{ sku }} Channel map. For Open Ephys GUI channel number, add 1.
+
+{% endif %}
 
 ..  figure:: /_static/images/{{ sku }}/main/{{ sku }}_axes.jpg
     :align: center
@@ -54,6 +65,18 @@
 
     {{ sku }} EIB combination channel map
 
+{% if sku == 'OEPS-7741' %}
+.. dropdown:: Channel map if your data were acquired using up to version 0.4.5 of the Bonsai.Onix1 library
+
+   .. figure:: /_static/images/OEPS-7741/eib/OEPS-7741_OEPS-6813_channel_map_v0.4.5.jpg
+      :align: center
+      :width: 70%
+
+      {{ sku }} EIB combination channel map
+
+{% endif %}
+
+
 {{ sku }} Adapter Combination
 -----------------------------
 
@@ -74,6 +97,16 @@
 
     {{ sku }} Adapter combination channel map
 
+{% if sku == 'OEPS-7741' %}
+.. dropdown:: Channel map if your data were acquired using up to version 0.4.5 of the Bonsai.Onix1 library
+
+   .. figure:: /_static/images/OEPS-7741/adp/OEPS-7741_OEPS-7200_channel_map_v0.4.5.jpg
+      :align: center
+      :width: 70%
+
+      {{ sku }} Adapter combination channel map
+
+{% endif %}
 
 Other combinations
 ------------------

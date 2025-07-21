@@ -19,7 +19,7 @@
     {%- if hs_data[sku]['mounting_hole'] %}
     "**Structural Opening**", "{{ hs_data[sku]['mounting_hole'] }}"
     {%- endif %}
-    "**Source File**", "{{ hs_data[sku]['src_repo'] }}"
+    "**Source Files**", "{{ hs_data[sku]['src_repo'] }}"
     "**Release**", "{{ hs_data[sku]['release'] }}"
 
 ..  figure:: /_static/images/{{ sku }}/main/{{ sku }}_channel_map.jpg
@@ -32,7 +32,11 @@
     :align: center
     :width: 70%
 
+    {% if sku == 'OEPS-6574' %}
+    {{ sku }} Accelerometer axes
+    {% else %}
     {{ sku }} IMU axes
+    {% endif %}
 
 
 Other combinations
