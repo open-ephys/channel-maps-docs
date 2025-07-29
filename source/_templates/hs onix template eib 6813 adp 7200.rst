@@ -98,7 +98,7 @@
     {{ sku }} Adapter combination channel map
 
 {% if sku == 'OEPS-7741' %}
-.. dropdown:: Channel map if your data were acquired using up to version 0.4.5 of the Bonsai.Onix1 library
+.. dropdown:: Channel map if your data were acquired using up to version 0.4.5 of the OpenEphys.Onix1 library
 
    .. figure:: /_static/images/OEPS-7741/adp/OEPS-7741_OEPS-7200_channel_map_v0.4.5.jpg
       :align: center
