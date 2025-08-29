@@ -14,7 +14,6 @@
     "**Weight**", "{{ hs_data[sku]['mass'] }}"
     "**Probe connector**", "{{ hs_data[sku]['probe_connector'] }}"
     "**Tether connector**", "{{ hs_data[sku]['tether_connector'] }}"
-    "**Operating voltage**", "{{ hs_data[sku ]['operating_voltage'] }}"
     "**REF and GND**", "{{ hs_data[sku]['ref_gnd'] }}"
     {%- if hs_data[sku]['mounting_hole'] %}
     "**Structural Opening**", "{{ hs_data[sku]['mounting_hole'] }}"
