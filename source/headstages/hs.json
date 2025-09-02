@@ -77,8 +77,8 @@
     {
       "SKU": "OEPS-6570",
       "Name": "SPI Headstage 64 Low Profile",
-      "EIBs": [],
-      "Adapters": [],
+      "EIBs": [{"OEPS-6813":"ShuttleDrive 64-ch Hirose EIB"}],
+      "Adapters": [{"OEPS-7200":"Hirose to Omnetics 64"}],
       "3D": "Accelerometer",
       "Chart": {
         "Acquisition System": "Acquisition board",

@@ -3,10 +3,6 @@
 {{ hs.Name }} ({{ hs.SKU }})
 ===================================================================================================
 
-.. ..  rubric:: {{ hs.SKU }}
-..     :class: sku-rubric
-..     :heading-level: 4
-
 ..  figure:: /_static/images/{{ hs.SKU }}/main/{{ hs.SKU }}_main.jpg
     :align: center
     :width: 60%
@@ -14,8 +10,7 @@
 ..  csv-table::
     :widths: 15, 50
     {% for key, value in hs.Chart.items() %}
-    "**{{ key }}**", "{{ value }}"
-    {% endfor %}
+    "**{{ key }}**", "{{ value }}"{% endfor %}
 
 ..  figure:: /_static/images/{{ hs.SKU }}/main/{{ hs.SKU }}_channel_map.jpg
     :align: center
@@ -51,10 +46,10 @@
 ------------------------------------------------------------------------
 
 Compatible EIBs:
-{% for eib_sku, eib_name in hs.EIBs.items() %}
--   {{ eib_name }} ({{ eib_sku }}) {% endfor %}
+{% for eib in hs.EIBs %} {% for eib_sku, eib_name in eib.items() %}
+-   {{ eib_name }} ({{ eib_sku }}) {% endfor %} {% endfor %}
 
-{% for eib, value in hs.EIBs.items() %}
+{% for eib in hs.EIBs %} {% for eib_sku, eib_name in eib.items() %}
 
 {{ eib_name }} ({{ eib_sku }})
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -71,7 +66,7 @@ Compatible EIBs:
 
     {{ hs.SKU }} {{ eib_sku }} combination channel map
 
-{% endfor %}
+{% endfor %} {% endfor %}
 
 {% if sku == 'OEPS-7741' %}
 .. dropdown:: Channel map if your data were acquired using up to version 0.4.5 of the OpenEphys.Onix1 library
@@ -91,12 +86,11 @@ Compatible EIBs:
 {{ hs.SKU }} Adapter Combination
 --------------------------------------------------------------------------------------
 
-Compatible EIBs:
-{% for adapter_sku, adapter_name in hs.Adapters.items() %}
--   {{ adapter_name }} ({{ adapter_sku }}) 
-{% endfor %}
+Compatible Adapters:
+{% for adapter in hs.Adapters %} {% for adapter_sku, adapter_name in adapter.items() %}
+-   {{ adapter_name }} ({{ adapter_sku }}) {% endfor %} {% endfor %}
 
-{% for eib, value in hs.Adapters.items() %}
+{% for adapter in hs.Adapters %} {% for adapter_sku, adapter_name in adapter.items() %}
 
 {{ adapter_name }} ({{ adapter_sku }})
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -113,7 +107,7 @@ Compatible EIBs:
 
     {{ hs.SKU }} {{ adapter_sku }} combination channel map
 
-{% endfor %}
+{% endfor %} {% endfor %}
 
 {% if sku == 'OEPS-7741' %}
 ..  dropdown:: Channel map if your data were acquired using up to version 0.4.5 of the OpenEphys.Onix1 library
