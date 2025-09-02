@@ -32,11 +32,7 @@
     :align: center
     :width: 70%
 
-    {% if sku == 'OEPS-6573' %}
-    {{ hs.SKU }} Accelerometer axes
-    {% else %}
-    {{ hs.SKU }} IMU axes
-    {% endif %}
+    {{ hs.3D }} axes
 
 .. Add this section when pictures and channel maps are done
 
@@ -76,7 +72,6 @@ Compatible EIBs:
         :width: 70%
 
         {{ hs.SKU }} {{ eib_sku }} combination channel map
-
 {% endif %}
 
 {% endif %}
@@ -117,7 +112,6 @@ Compatible Adapters:
         :width: 70%
 
         {{ hs.SKU }} Adapter combination channel map
-
 {% endif %}
 
 {% endif %}
