@@ -1,11 +1,11 @@
 
 ===================================================================================================
-{{ hs.Name }}
+{{ hs.Name }} ({{ hs.SKU }})
 ===================================================================================================
 
-..  rubric:: {{ hs.SKU }}
-    :class: sku-rubric
-    :heading-level: 4
+.. ..  rubric:: {{ hs.SKU }}
+..     :class: sku-rubric
+..     :heading-level: 4
 
 ..  figure:: /_static/images/{{ hs.SKU }}/main/{{ hs.SKU }}_main.jpg
     :align: center
@@ -14,7 +14,8 @@
 ..  csv-table::
     :widths: 15, 50
     {% for key, value in hs.Chart.items() %}
-    "**{{ key }}**", "{{ value }}"{% endfor %}
+    "**{{ key }}**", "{{ value }}"
+    {% endfor %}
 
 ..  figure:: /_static/images/{{ hs.SKU }}/main/{{ hs.SKU }}_channel_map.jpg
     :align: center
@@ -44,45 +45,33 @@
 
 .. Add this section when pictures and channel maps are done
 
-.. {{ hs.SKU }} EIB Combination
-.. -----------------------------
+{% if hs.EIBs is defined and hs.EIBs|length > 0 %}
 
-.. (..  csv-table::)
-    :widths: 15, 50
+{{ hs.SKU }} EIB Combinations
+------------------------------------------------------------------------
 
-    "**Compatible EIB**", "OEPS-6809 ShuttleDrive 32-ch Omnetics EIB"
+Compatible EIBs:
+{% for eib_sku, eib_name in hs.EIBs.items() %}
+-   {{ eib_name }} ({{ eib_sku }}) {% endfor %}
 
-.. ..  figure:: /_static/images/{{ hs.SKU }}/eib/{{ hs.SKU }}_OEPS-6809_mounting.jpg
+{% for eib, value in hs.EIBs.items() %}
+
+{{ eib_name }} ({{ eib_sku }})
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+..  figure:: /_static/images/{{ hs.SKU }}/eib/{{ hs.SKU }}_{{ eib_sku }}_mounting.jpg
     :align: center
     :width: 100%
 
-    {{ hs.SKU }} EIB combination mounting
+    {{ hs.SKU }} {{ eib_sku }} combination mounting 
 
-.. ..  figure:: /_static/images/{{ hs.SKU }}/eib/{{ hs.SKU }}_OEPS-6809_channel_map.jpg
+..  figure:: /_static/images/{{ hs.SKU }}/eib/{{ hs.SKU }}_{{ eib_sku }}_channel_map.jpg
     :align: center
     :width: 70%
 
-    {{ hs.SKU }} EIB combination channel map
+    {{ hs.SKU }} {{ eib_sku }} combination channel map
 
-{{ hs.SKU }} EIB Combination
------------------------------
-
-.. ..  csv-table::
-..     :widths: 15, 50
-
-..     "**Compatible EIB**", "OEPS-6813 ShuttleDrive 64-ch Hirose EIB"
-
-.. ..  figure:: /_static/images/{{ hs.SKU }}/eib/{{ hs.SKU }}_OEPS-6813_mounting.jpg
-..     :align: center
-..     :width: 100%
-
-..     {{ hs.SKU }} EIB combination mounting
-
-.. ..  figure:: /_static/images/{{ hs.SKU }}/eib/{{ hs.SKU }}_OEPS-6813_channel_map.jpg
-..     :align: center
-..     :width: 70%
-
-..     {{ hs.SKU }} EIB combination channel map
+{% endfor %}
 
 {% if sku == 'OEPS-7741' %}
 .. dropdown:: Channel map if your data were acquired using up to version 0.4.5 of the OpenEphys.Onix1 library
@@ -91,30 +80,40 @@
         :align: center
         :width: 70%
 
-        {{ hs.SKU }} EIB combination channel map
+        {{ hs.SKU }} {{ eib_sku }} combination channel map
 
 {% endif %}
 
+{% endif %}
+
+{% if hs.Adapters is defined and hs.Adapters|length > 0 %}
 
 {{ hs.SKU }} Adapter Combination
------------------------------
+--------------------------------------------------------------------------------------
 
-.. ..  csv-table::
-..     :widths: 15, 50
+Compatible EIBs:
+{% for adapter_sku, adapter_name in hs.Adapters.items() %}
+-   {{ adapter_name }} ({{ adapter_sku }}) 
+{% endfor %}
 
-..     "**Compatible Adapter**", "OEPS-7200 Adapter Hirose to Omnetics 64ch"
+{% for eib, value in hs.Adapters.items() %}
 
-.. ..  figure:: /_static/images/{{ hs.SKU }}/adp/{{ hs.SKU }}_OEPS-7200_mounting.jpg
-..     :align: center
-..     :width: 100%
+{{ adapter_name }} ({{ adapter_sku }})
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-..     {{ hs.SKU }} EIB combination mounting
+..  figure:: /_static/images/{{ hs.SKU }}/adapter/{{ hs.SKU }}_{{ adapter_sku }}_mounting.jpg
+    :align: center
+    :width: 100%
 
-.. ..  figure:: /_static/images/{{ hs.SKU }}/adp/{{ hs.SKU }}_OEPS-7200_channel_map.jpg
-..     :align: center
-..     :width: 70%
+    {{ hs.SKU }} {{ adapter_sku }} combination mounting 
 
-..     {{ hs.SKU }} Adapter combination channel map
+..  figure:: /_static/images/{{ hs.SKU }}/adapter/{{ hs.SKU }}_{{ adapter_sku }}_channel_map.jpg
+    :align: center
+    :width: 70%
+
+    {{ hs.SKU }} {{ adapter_sku }} combination channel map
+
+{% endfor %}
 
 {% if sku == 'OEPS-7741' %}
 ..  dropdown:: Channel map if your data were acquired using up to version 0.4.5 of the OpenEphys.Onix1 library
@@ -124,6 +123,8 @@
         :width: 70%
 
         {{ hs.SKU }} Adapter combination channel map
+
+{% endif %}
 
 {% endif %}
 
