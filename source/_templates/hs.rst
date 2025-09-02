@@ -32,7 +32,7 @@
     :align: center
     :width: 70%
 
-    {{ hs.3D }} axes
+    {{ hs['3D'] }} axes
 
 .. Add this section when pictures and channel maps are done
 
