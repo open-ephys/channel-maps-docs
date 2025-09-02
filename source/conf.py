@@ -1,5 +1,5 @@
 from datetime import datetime, timezone
-import csv
+import json
 
 # -*- coding: utf-8 -*-
 #
@@ -213,11 +213,9 @@ html_theme_options = {
 }
 html_favicon = "_static/images/favicon.png"
 
-with open('headstages/hs.csv', mode='r') as hs_csv:
-    hs_csv_data = csv.DictReader(hs_csv, skipinitialspace=True, strict=True)
-    hs_data = {}
-    for row in hs_csv_data:
-        hs_data[row['sku']] = {key: value for key, value in row.items() if key not in 'sku'}
+with open('headstages/hs.json', mode='r') as hs_json:
+    hs_data = json.load(hs_json)
+    # print(json.dumps(hs_data, indent=4))
 
 html_context = {
     "github_user": "open-ephys",
@@ -250,5 +248,3 @@ def rstjinja(app, docname, source):
 
 def setup(app):
     app.connect("source-read", rstjinja)
-
-
