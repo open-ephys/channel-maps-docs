@@ -41,5 +41,12 @@ More resources about channel mapping
 
 We suggest using the `ProbeInterface <https://probeinterface.readthedocs.io/>`__ Python library to help finish the mapping from the headstage/adapter/EIB to the electrodes.
 
+.. toctree::
+    :hidden:
+    :maxdepth: 2
+    :titlesonly:
+
+    ProbeInterface <https://probeinterface.readthedocs.io/>
+
 .. - Open Ephys Community Wiki article on channel mapping
 .. - OEdu video on channel mapping
