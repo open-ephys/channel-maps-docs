@@ -41,7 +41,7 @@
 
         **(OEPS-7746)**
 
-    ..  grid-item-card:: Low-profile SPI Headstages 64ch
+    ..  grid-item-card:: Low-profile SPI Headstage 64ch
         :link-type: doc
         :link: /headstages/oeps-6570
         :text-align: center
@@ -51,7 +51,7 @@
 
         **(OEPS-6570)**
 
-    ..  grid-item-card:: Low-profile SPI Headstages 64ch with 3D
+    ..  grid-item-card:: Low-profile SPI Headstage 64ch with 3D
         :link-type: doc
         :link: /headstages/oeps-6571
         :text-align: center
