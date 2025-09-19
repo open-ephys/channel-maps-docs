@@ -1,10 +1,8 @@
-
-{{ sku }}
-=========
-
 ..  figure:: /_static/images/{{ sku }}/main/{{ sku }}_main.jpg
     :align: center
     :width: 60%
+
+    {{ sku }}
 
 ..   csv-table::
     :widths: 15, 50
@@ -26,7 +24,7 @@
     :align: center
     :width: 70%
 
-    {{ sku }} Channel map. For Open Ephys GUI channel numbers, add 1.
+    Channel map. For Open Ephys GUI channel numbers, add 1.
 
 ..  figure:: /_static/images/{{ sku }}/main/{{ sku }}_axes.jpg
     :align: center
@@ -38,45 +36,45 @@
     {{ sku }} IMU axes
     {% endif %}
 
-{{ sku }} EIB Combination
+EIB Combination
 -----------------------------
 
 ..  csv-table::
     :widths: 15, 50
 
-    "**Compatible EIB**", "OEPS-6813 ShuttleDrive 64-ch Hirose EIB"
+    "**Compatible EIB**", "ShuttleDrive 64-ch Hirose EIB (OEPS-6813)"
 
 ..  figure:: /_static/images/{{ sku }}/eib/{{ sku }}_OEPS-6813_mounting.jpg
     :align: center
     :width: 100%
 
-    {{ sku }} EIB combination mounting
+    EIB combination mounting
 
 ..  figure:: /_static/images/{{ sku }}/eib/{{ sku }}_OEPS-6813_channel_map.jpg
     :align: center
     :width: 70%
 
-    {{ sku }} EIB combination channel map
+    EIB combination channel map
 
-{{ sku }} Adapter Combination
+Adapter Combination
 -----------------------------
 
 ..  csv-table::
     :widths: 15, 50
 
-    "**Compatible Adapter**", "OEPS-7200 Adapter Hirose to Omnetics 64ch"
+    "**Compatible Adapter**", "Adapter Hirose to Omnetics 64ch (OEPS-7200)"
 
 ..  figure:: /_static/images/{{ sku }}/adp/{{ sku }}_OEPS-7200_mounting.jpg
     :align: center
     :width: 100%
 
-    {{ sku }} EIB combination mounting
+    EIB combination mounting
 
 ..  figure:: /_static/images/{{ sku }}/adp/{{ sku }}_OEPS-7200_channel_map.jpg
     :align: center
     :width: 70%
 
-    {{ sku }} Adapter combination channel map
+    Adapter combination channel map
 
 
 Other combinations
