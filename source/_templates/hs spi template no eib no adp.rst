@@ -1,10 +1,8 @@
-
-{{ sku }}
-=========
-
 ..  figure:: /_static/images/{{ sku }}/main/{{ sku }}_main.jpg
     :align: center
     :width: 60%
+
+    {{ sku }}
 
 ..   csv-table::
     :widths: 15, 50
@@ -26,7 +24,7 @@
     :align: center
     :width: 70%
 
-    {{ sku }} Channel map. For Open Ephys GUI channel numbers, add 1.
+    Channel map. For Open Ephys GUI channel numbers, add 1.
 
 ..  figure:: /_static/images/{{ sku }}/main/{{ sku }}_axes.jpg
     :align: center

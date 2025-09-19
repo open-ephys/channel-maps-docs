@@ -1,10 +1,8 @@
-
-{{ sku }}
-=========
-
 ..  figure:: /_static/images/{{ sku }}/main/{{ sku }}_main.jpg
     :align: center
     :width: 60%
+    
+    {{ sku }}
 
 ..   csv-table::
     :widths: 15, 50
@@ -26,29 +24,29 @@
     :align: center
     :width: 70%
 
-    {{ sku }} Channel map. For Open Ephys GUI channel numbers, add 1.
+    Channel map. For Open Ephys GUI channel numbers, add 1.
 
 .. Add this section when pictures and channel maps are done
 
-.. {{ sku }} EIB Combination
+.. EIB Combination
 .. -----------------------------
 ..
 .. .. csv-table::)
 ..     :widths: 15, 50
 ..
-..     "**Compatible EIB**", "OEPS-6809 ShuttleDrive 32-ch Omnetics EIB"
+..     "**Compatible EIB**", "ShuttleDrive 32-ch Omnetics EIB (OEPS-6809)"
 ..
 .. .. figure:: /_static/images/{{ sku }}/eib/{{ sku }}_OEPS-6809_mounting.jpg
 ..     :align: center
 ..     :width: 100%
 ..
-..     {{ sku }} EIB combination mounting
+..     EIB combination mounting
 ..
 .. .. figure:: /_static/images/{{ sku }}/eib/{{ sku }}_OEPS-6809_channel_map.jpg
 ..     :align: center
 ..     :width: 70%
 ..
-..     {{ sku }} EIB combination channel map
+..     EIB combination channel map
 
 Other combinations
 ------------------
