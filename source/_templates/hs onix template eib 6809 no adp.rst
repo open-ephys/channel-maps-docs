@@ -57,4 +57,4 @@ To construct other channel maps, take a look at the channel mapping table and co
 
 ..  raw:: html
 
-    <center><div style="margin-top: 50px;"><iframe width="800" height="1200" scrolling='yes' src="https://docs.google.com/spreadsheets/d/11wRDYOqHN5lPb03yUdfXfK0zvaDYsVetplaNK-R90Gg/edit?gid=0#gid=0"></iframe></div></center>
+    <center><div style="margin-top: 50px;"><iframe width="800" height="1200" scrolling='yes' src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSxEZVG5xytX9CU5a87evB-YSvePfsPWiUGv_nH_SoK7Be4nRgFMId30PxKsUkr2QmLoIl2BF-KabnA/pubhtml?widget=true&amp;headers=false&amp;chrome=false"></iframe></div></center>
