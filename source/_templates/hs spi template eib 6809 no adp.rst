@@ -64,7 +64,7 @@
 Other combinations
 ------------------
 
-To construct other channel maps, take a look at the channel mapping table and connector pinout.
+To construct other channel maps, navigate through the `channel mapping table and connector pinout document <https://docs.google.com/spreadsheets/d/e/2PACX-1vS1gLC6sHhH6Xbcib5xx0Up7nUkKYEuGhZ0BLtfBYLqsw_X___o-2niKnuLJcrOKamIKYIWAuOcH3Pl/pubhtml>`__.
 
 ..  raw:: html
 
