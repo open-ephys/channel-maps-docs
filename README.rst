@@ -52,6 +52,13 @@ Exit the virtualenv with
 
    exit
 
+channel-maps-docs utility scripts
+#################################
+Run something like this
+```
+./.venv/bin/python ./channel-maps-utils/source/scripts/map-channels.py --mappings_dir ./channel-maps-utils/source/mappings --pairs_file ./channel-maps-utils/source/mappings/connector-pairs.json --output_dir ./channel-maps-utils/output
+```
+to try out the `map-channels.py` utility script.
 
 Acknowledgements
 ####################################

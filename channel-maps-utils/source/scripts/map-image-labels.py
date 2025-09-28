@@ -1,29 +1,55 @@
+import csv
 import xml.etree.ElementTree as ET
+from pathlib import Path
 
-svg_path = "C:/Users/open-ephys/Downloads/practice-numbering.svg"
-tree = ET.parse(svg_path)
-root = tree.getroot()
-ns = {"svg": "http://www.w3.org/2000/svg"}
+def load_mapping(csv_path: Path) -> dict:
+    """Load placeholder→new label mapping from a CSV with 2 rows."""
+    with open(csv_path, newline="", encoding="utf-8") as f:
+        rows = list(csv.reader(f))
+    if len(rows) < 2:
+        raise ValueError(f"{csv_path} must contain at least 2 rows (placeholders + new labels)")
+    placeholders, new_labels = rows[0], rows[1]
+    return dict(zip(placeholders, new_labels))
 
-new_labels = [
-    "A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8", "A9", "A10",
-    "A11", "A12", "A13", "A14", "A15", "A16", "A17", "A18", "A19", "A20",
-    "A21", "A22", "A23", "A24", "A25", "A26", "A27", "A28", "A29", "A30",
-    "A31", "A32", "A33", "A34", "A35", "A36", "A37", "A38", "A39", "A40",
-    "A41", "A42", "A43", "A44", "A45", "A46", "A47", "A48", "A49", "A50",
-    "A51", "A52", "A53", "A54", "A55", "A56", "A57", "A58", "A59", "A60",
-    "A61", "A62", "A63", "A64", "A65", "A66", "A67", "A68", "A69", "A70"
-]
+def apply_mapping(svg_path: Path, csv_path: Path, output_dir: Path):
+    """Apply one CSV mapping to an SVG and save a new file."""
+    tree = ET.parse(svg_path)
+    root = tree.getroot()
+    ns = {"svg": "http://www.w3.org/2000/svg"}
 
-i = 0
-for text in root.findall(".//svg:text", ns):
-    content = "".join(text.itertext()).strip()
-    if content.isdigit():
-        if i < len(new_labels):
-            text.text = new_labels[i]
-        i += 1
+    mapping = load_mapping(csv_path)
 
-output_path = "practice-numbering-replaced.svg"
-tree.write(output_path, encoding="utf-8", xml_declaration=True)
+    for text in root.findall(".//svg:text", ns):
+        content = "".join(text.itertext()).strip()
+        if content in mapping:
+            text.text = mapping[content]
 
-print(f"Updated SVG saved to {output_path}")
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    # Output filename is based on CSV stem
+    out_name = f"{csv_path.stem}.svg"
+    out_path = output_dir / out_name
+
+    tree.write(out_path, encoding="utf-8", xml_declaration=True)
+    print(f"Updated {svg_path.name} with {csv_path.name} → {out_path}")
+
+def main(root_dir: str, output_dir: str):
+    root_dir = Path(root_dir)
+    output_dir = Path(output_dir)
+
+    csv_files = list(root_dir.rglob("*.csv"))
+
+    for svg_path in root_dir.rglob("*.svg"):
+        stem = svg_path.stem  # "xxx" from "xxx.svg"
+
+        # Find CSVs whose stem ends with "-xxx"
+        matching_csvs = [c for c in csv_files if c.stem.endswith(f"-{stem}")]
+        if not matching_csvs:
+            continue
+
+        for csv_path in matching_csvs:
+            apply_mapping(svg_path, csv_path, output_dir)
+
+if __name__ == "__main__":
+    # Example: process everything under current directory and write outputs to ./output
+    main(root_dir=".", output_dir="./output")
