@@ -1,11 +1,13 @@
 
 ===================================================================================================
-{{ hs.Name }} ({{ hs.SKU }})
+{{ hs.Name }}
 ===================================================================================================
 
 ..  figure:: /_static/images/{{ hs.SKU }}/main/{{ hs.SKU }}_main.jpg
     :align: center
     :width: 60%
+
+    {{ hs.SKU }}
 
 ..  csv-table::
     :widths: 15, 50
@@ -16,7 +18,7 @@
     :align: center
     :width: 70%
 
-    {{ hs.SKU }} Channel map. For Open Ephys GUI channel numbers, add 1.
+    Channel map. For Open Ephys GUI channel numbers, add 1.
 
 {% if hs.SKU == 'OEPS-7741' %}
 .. dropdown:: Channel map if your data were acquired using up to version 0.4.5 of the OpenEphys.Onix1 library
@@ -25,7 +27,7 @@
         :align: center
         :width: 70%
 
-        {{ hs.SKU }} Channel map. For Open Ephys GUI channel number, add 1.
+        Channel map. For Open Ephys GUI channel number, add 1.
 {% endif %}
 
 ..  figure:: /_static/images/{{ hs.SKU }}/main/{{ hs.SKU }}_axes.jpg
@@ -38,29 +40,28 @@
 
 {% if hs.EIBs is defined and hs.EIBs|length > 0 %}
 
-{{ hs.SKU }} EIB Combinations
+Compatible EIBs
 ------------------------------------------------------------------------
 
-Compatible EIBs:
 {% for eib in hs.EIBs %} 
 -   {{ eib.Name }} ({{ eib.SKU }}) {% endfor %}
 
 {% for eib in hs.EIBs %} 
 
-{{ eib.Name }} ({{ eib.SKU }})
+{{ eib.Name }}
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ..  figure:: /_static/images/{{ hs.SKU }}/eib/{{ hs.SKU }}_{{ eib.SKU }}_mounting.jpg
     :align: center
     :width: 100%
 
-    {{ hs.SKU }} {{ eib.SKU }} combination mounting 
+    EIB combination mounting 
 
 ..  figure:: /_static/images/{{ hs.SKU }}/eib/{{ hs.SKU }}_{{ eib.SKU }}_channel_map.jpg
     :align: center
     :width: 70%
 
-    {{ hs.SKU }} {{ eib.SKU }} combination channel map
+    EIB combination channel map
 
 {% endfor %}
 
@@ -71,36 +72,36 @@ Compatible EIBs:
         :align: center
         :width: 70%
 
-        {{ hs.SKU }} {{ eib.SKU }} combination channel map
+        EIB combination channel map
 {% endif %}
 
 {% endif %}
 
 {% if hs.Adapters is defined and hs.Adapters|length > 0 %}
 
-{{ hs.SKU }} Adapter Combinations
+Adapter Combinations
 --------------------------------------------------------------------------------------
 
 Compatible Adapters:
 {% for adapter in hs.Adapters %} 
--   {{ adapter.Name }} ({{ adapter.SKU }}) {% endfor %} 
+-   {{ adapter.Name }} {% endfor %} 
 
 {% for adapter in hs.Adapters %} 
 
-{{ adapter.Name }} ({{ adapter.SKU }})
+{{ adapter.Name }}
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ..  figure:: /_static/images/{{ hs.SKU }}/adapter/{{ hs.SKU }}_{{ adapter.SKU }}_mounting.jpg
     :align: center
     :width: 100%
 
-    {{ hs.SKU }} {{ adapter.SKU }} combination mounting 
+    Adapter combination mounting 
 
 ..  figure:: /_static/images/{{ hs.SKU }}/adapter/{{ hs.SKU }}_{{ adapter.SKU }}_channel_map.jpg
     :align: center
     :width: 70%
 
-    {{ hs.SKU }} {{ adapter.SKU }} combination channel map
+    Adapter combination channel map
 
 {% endfor %} 
 
@@ -111,7 +112,7 @@ Compatible Adapters:
         :align: center
         :width: 70%
 
-        {{ hs.SKU }} Adapter combination channel map
+        Adapter combination channel map
 {% endif %}
 
 {% endif %}

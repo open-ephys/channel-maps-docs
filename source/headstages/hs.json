@@ -3,7 +3,7 @@
     {
       "SKU": "OEPS-7741",
       "Name": "ONIX Headstage 64",
-      "EIBs": [{"SKU":"OEPS-6813", "Name":"ShuttleDrive 64-ch Hirose EIB"}],
+      "EIBs": [{"SKU":"OEPS-6813", "Name":"ShuttleDrive 64-ch Hirose EIB"}, {"SKU":"OEPS-6813", "Name":"ShuttleDrive 64-ch Hirose EIB"}],
       "Adapters": [{"SKU":"OEPS-7200", "Name":"Hirose to Omnetics 64ch Adapter"}],
       "3D": "IMU",
       "Chart": {
