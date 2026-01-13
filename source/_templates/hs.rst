@@ -18,7 +18,7 @@
 
     {{ hs.SKU }} Channel map. For Open Ephys GUI channel numbers, add 1.
 
-{% if sku == 'OEPS-7741' %}
+{% if hs.SKU == 'OEPS-7741' %}
 .. dropdown:: Channel map if your data were acquired using up to version 0.4.5 of the OpenEphys.Onix1 library
 
     .. figure:: /_static/images/OEPS-7741/main/OEPS-7741_channel_map_v0.4.5.jpg
@@ -42,27 +42,27 @@
 ------------------------------------------------------------------------
 
 Compatible EIBs:
-{% for eib in hs.EIBs %} {% for eib_sku, eib_name in eib.items() %}
--   {{ eib_name }} ({{ eib_sku }}) {% endfor %} {% endfor %}
+{% for eib in hs.EIBs %} 
+-   {{ eib.Name }} ({{ eib.SKU }}) {% endfor %}
 
-{% for eib in hs.EIBs %} {% for eib_sku, eib_name in eib.items() %}
+{% for eib in hs.EIBs %} 
 
-{{ eib_name }} ({{ eib_sku }})
+{{ eib.Name }} ({{ eib.SKU }})
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-..  figure:: /_static/images/{{ hs.SKU }}/eib/{{ hs.SKU }}_{{ eib_sku }}_mounting.jpg
+..  figure:: /_static/images/{{ hs.SKU }}/eib/{{ hs.SKU }}_{{ eib.SKU }}_mounting.jpg
     :align: center
     :width: 100%
 
-    {{ hs.SKU }} {{ eib_sku }} combination mounting 
+    {{ hs.SKU }} {{ eib.SKU }} combination mounting 
 
-..  figure:: /_static/images/{{ hs.SKU }}/eib/{{ hs.SKU }}_{{ eib_sku }}_channel_map.jpg
+..  figure:: /_static/images/{{ hs.SKU }}/eib/{{ hs.SKU }}_{{ eib.SKU }}_channel_map.jpg
     :align: center
     :width: 70%
 
-    {{ hs.SKU }} {{ eib_sku }} combination channel map
+    {{ hs.SKU }} {{ eib.SKU }} combination channel map
 
-{% endfor %} {% endfor %}
+{% endfor %}
 
 {% if sku == 'OEPS-7741' %}
 .. dropdown:: Channel map if your data were acquired using up to version 0.4.5 of the OpenEphys.Onix1 library
@@ -71,38 +71,38 @@ Compatible EIBs:
         :align: center
         :width: 70%
 
-        {{ hs.SKU }} {{ eib_sku }} combination channel map
+        {{ hs.SKU }} {{ eib.SKU }} combination channel map
 {% endif %}
 
 {% endif %}
 
 {% if hs.Adapters is defined and hs.Adapters|length > 0 %}
 
-{{ hs.SKU }} Adapter Combination
+{{ hs.SKU }} Adapter Combinations
 --------------------------------------------------------------------------------------
 
 Compatible Adapters:
-{% for adapter in hs.Adapters %} {% for adapter_sku, adapter_name in adapter.items() %}
--   {{ adapter_name }} ({{ adapter_sku }}) {% endfor %} {% endfor %}
+{% for adapter in hs.Adapters %} 
+-   {{ adapter.Name }} ({{ adapter.SKU }}) {% endfor %} 
 
-{% for adapter in hs.Adapters %} {% for adapter_sku, adapter_name in adapter.items() %}
+{% for adapter in hs.Adapters %} 
 
-{{ adapter_name }} ({{ adapter_sku }})
+{{ adapter.Name }} ({{ adapter.SKU }})
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-..  figure:: /_static/images/{{ hs.SKU }}/adapter/{{ hs.SKU }}_{{ adapter_sku }}_mounting.jpg
+..  figure:: /_static/images/{{ hs.SKU }}/adapter/{{ hs.SKU }}_{{ adapter.SKU }}_mounting.jpg
     :align: center
     :width: 100%
 
-    {{ hs.SKU }} {{ adapter_sku }} combination mounting 
+    {{ hs.SKU }} {{ adapter.SKU }} combination mounting 
 
-..  figure:: /_static/images/{{ hs.SKU }}/adapter/{{ hs.SKU }}_{{ adapter_sku }}_channel_map.jpg
+..  figure:: /_static/images/{{ hs.SKU }}/adapter/{{ hs.SKU }}_{{ adapter.SKU }}_channel_map.jpg
     :align: center
     :width: 70%
 
-    {{ hs.SKU }} {{ adapter_sku }} combination channel map
+    {{ hs.SKU }} {{ adapter.SKU }} combination channel map
 
-{% endfor %} {% endfor %}
+{% endfor %} 
 
 {% if sku == 'OEPS-7741' %}
 ..  dropdown:: Channel map if your data were acquired using up to version 0.4.5 of the OpenEphys.Onix1 library

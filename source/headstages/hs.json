@@ -3,8 +3,8 @@
     {
       "SKU": "OEPS-7741",
       "Name": "ONIX Headstage 64",
-      "EIBs": [],
-      "Adapters": [],
+      "EIBs": [{"SKU":"OEPS-6813", "Name":"ShuttleDrive 64-ch Hirose EIB"}],
+      "Adapters": [{"SKU":"OEPS-7200", "Name":"Hirose to Omnetics 64ch Adapter"}],
       "3D": "IMU",
       "Chart": {
         "Acquisition System": "ONIX",
@@ -77,8 +77,8 @@
     {
       "SKU": "OEPS-6570",
       "Name": "SPI Headstage 64 Low Profile",
-      "EIBs": [{"OEPS-6813":"ShuttleDrive 64-ch Hirose EIB"}],
-      "Adapters": [{"OEPS-7200":"Hirose to Omnetics 64"}],
+      "EIBs": [{"SKU":"OEPS-6813", "Name":"ShuttleDrive 64-ch Hirose EIB"}],
+      "Adapters": [{"SKU":"OEPS-7200", "Name":"Hirose to Omnetics 64ch Adapter"}],
       "3D": "Accelerometer",
       "Chart": {
         "Acquisition System": "Acquisition board",
