@@ -2,10 +2,10 @@
   "Headstages": [
     {
       "SKU": "OEPS-7741",
-      "Name": "ONIX Headstage 64",
+      "Name": "ONIX Headstage Ephys 64ch",
       "Mapping": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSxEZVG5xytX9CU5a87evB-YSvePfsPWiUGv_nH_SoK7Be4nRgFMId30PxKsUkr2QmLoIl2BF-KabnA/pubhtml",
       "EIBs": [{"SKU":"OEPS-6813", "Name":"ShuttleDrive 64-ch Hirose EIB"}],
-      "Adapters": [{"SKU":"OEPS-7200", "Name":"Hirose to Omnetics 64ch Adapter"}],
+      "Adapters": [{"SKU":"OEPS-7200", "Name":"Adapter Hirose to Omnetics 64ch"}],
       "3D": "IMU",
       "Chart": {
         "Acquisition System": "ONIX",
@@ -13,7 +13,6 @@
         "Mass": "1.5 g",
         "Probe Connector": "1x Hirose DF40C-70DP-0.4V(51)",
         "Tether Connector": "X.Fl",
-        "Operating Voltage": "5 - 6.3 V",
         "REF and GND": "REF and GND connections tied together using the R29 0-ohm jumper resistor that can be removed",
         "Source Repo": "https://github.com/open-ephys/onix-headstage-64",
         "Release": "Revision 1.3B"
@@ -31,7 +30,6 @@
         "Mass": "0.68 g",
         "Probe Connector": "1x ZIF connector",
         "Tether Connector": "X.Fl",
-        "Operating Voltage": "3 - 5.5 V",
         "REF and GND": "REF and GND connections are not tied together",
         "Mounting Features": "Two M1.4 (1.4 mm in diameter) mounting holes",
         "Source Repo": "https://github.com/open-ephys/onix-headstage-neuropix1e",
@@ -50,7 +48,6 @@
         "Mass": "0.64 g",
         "Probe Connector": "2x ZIF connector",
         "Tether Connector": "X.Fl",
-        "Operating Voltage": "3 - 5.5 V",
         "REF and GND": "REF and GND connections are not tied together",
         "Mounting Features": "Two 1.8 x 0.8 mm mounting holes",
         "Source Repo": "https://github.com/open-ephys/onix-headstage-neuropix2e",
@@ -69,7 +66,6 @@
         "Mass": "1.62 g",
         "Probe Connector": "1x Omnetics A79025: 36 pins, 4 guide posts",
         "Tether Connector": "U.Fl",
-        "Operating Voltage": "3.4 - 5 V",
         "REF and GND": "REF and GND connections tied together using the R18 0-ohm jumper resistor that can be removed",
         "Source Repo": "https://github.com/open-ephys/onix-headstage-rhs2116",
         "Release": "Revision C"
@@ -77,10 +73,10 @@
     },
     {
       "SKU": "OEPS-6570",
-      "Name": "SPI Headstage 64 Low Profile",
+      "Name": "SPI Headstage 64ch Low Profile",
       "Mapping": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS1gLC6sHhH6Xbcib5xx0Up7nUkKYEuGhZ0BLtfBYLqsw_X___o-2niKnuLJcrOKamIKYIWAuOcH3Pl/pubhtml",
       "EIBs": [{"SKU":"OEPS-6813", "Name":"ShuttleDrive 64-ch Hirose EIB"}],
-      "Adapters": [{"SKU":"OEPS-7200", "Name":"Hirose to Omnetics 64ch Adapter"}],
+      "Adapters": [{"SKU":"OEPS-7200", "Name":"Adapter Hirose to Omnetics 64ch"}],
       "3D": "Accelerometer",
       "Chart": {
         "Acquisition System": "Acquisition board",
@@ -88,7 +84,6 @@
         "Mass": "1.0 g",
         "Probe Connector": "1x Hirose DF40C-70DP-0.4V(51)",
         "Tether Connector": "12-pin SPI",
-        "Operating Voltage": "3.3 V (3.2 - 3.6 V)",
         "REF and GND": "REF and GND connections tied together using the R1 0-ohm jumper resistor that can be removed. In revision 1.0, REF and GND are not connected.",
         "Mounting Features": "One 3.3 x 5.8 mm cutout",
         "Source Repo": "https://github.com/open-ephys/low-profile-spi-headstage-64ch",
@@ -97,10 +92,10 @@
     },
     {
       "SKU": "OEPS-6571",
-      "Name": "SPI Headstage 64 Low Profile 3D",
+      "Name": "SPI Headstage 64ch Low Profile with 3D",
       "Mapping": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS1gLC6sHhH6Xbcib5xx0Up7nUkKYEuGhZ0BLtfBYLqsw_X___o-2niKnuLJcrOKamIKYIWAuOcH3Pl/pubhtml",
-      "EIBs": [],
-      "Adapters": [],
+      "EIBs": [{"SKU":"OEPS-6813", "Name":"ShuttleDrive 64-ch Hirose EIB"}],
+      "Adapters": [{"SKU":"OEPS-7200", "Name":"Adapter Hirose to Omnetics 64ch"}],
       "3D": "IMU",
       "Chart": {
         "Acquisition System": "Acquisition board",
@@ -108,7 +103,6 @@
         "Mass": "1.0 g",
         "Probe Connector": "1x Hirose DF40C-70DP-0.4V(51)",
         "Tether Connector": "12-pin SPI",
-        "Operating Voltage": "3.3 V (3.2 - 3.6 V)",
         "REF and GND": "REF and GND connections tied together using the R1 0-ohm jumper resistor that can be removed",
         "Mounting Features": "One 3.3 x 5.8 mm cutout",
         "Source Repo": "https://github.com/open-ephys/low-profile-3d-headstage-64ch",
@@ -118,7 +112,7 @@
     {
       "SKU": "OEPS-6573",
       "Mapping": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS1gLC6sHhH6Xbcib5xx0Up7nUkKYEuGhZ0BLtfBYLqsw_X___o-2niKnuLJcrOKamIKYIWAuOcH3Pl/pubhtml",
-      "Name": "SPI Headstage 32",
+      "Name": "SPI Headstage 32ch",
       "EIBs": [],
       "Adapters": [],
       "3D": "Accelerometer",
@@ -128,26 +122,6 @@
         "Mass": "1.1 g",
         "Probe Connector": "1x Omnetics A79025: 36 pins, 4 guide posts",
         "Tether Connector": "12-pin SPI",
-        "Operating Voltage": "3.3 V (3.2 - 3.6 V)",
-        "REF and GND": "REF and GND connections tied together using the R0 0-ohm jumper resistor that can be removed",
-        "Source Repo": "https://github.com/open-ephys/vertical-profile-spi-headstage-32ch/tree/b4f33e54d2db8ce6c290a44bb6fce44c8458ad05",
-        "Release": "Revision 1.1"
-      }
-    },
-    {
-      "SKU": "OEPS-6574",
-      "Name": "SPI Headstage 32 3D",
-      "Mapping": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS1gLC6sHhH6Xbcib5xx0Up7nUkKYEuGhZ0BLtfBYLqsw_X___o-2niKnuLJcrOKamIKYIWAuOcH3Pl/pubhtml",
-      "EIBs": [],
-      "Adapters": [],
-      "3D": "Accelerometer",
-      "Chart": {
-        "Acquisition System": "Acquisition board",
-        "Dimensions": "15.1 x 26 mm",
-        "Mass": "1.1 g",
-        "Probe Connector": "1x Omnetics A79025: 36 pins, 4 guide posts",
-        "Tether Connector": "12-pin SPI",
-        "Operating Voltage": "3.3 V (3.2 - 3.6 V)",
         "REF and GND": "REF and GND connections tied together using the R0 0-ohm jumper resistor that can be removed",
         "Source Repo": "https://github.com/open-ephys/vertical-profile-spi-headstage-32ch/tree/b4f33e54d2db8ce6c290a44bb6fce44c8458ad05",
         "Release": "Revision 1.1"
@@ -155,7 +129,25 @@
     },
     {
       "SKU": "OEPS-6576",
-      "Name": "SPI Headstage 16 Bipolar",
+      "Name": "SPI Headstage 32ch with 3D",
+      "Mapping": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS1gLC6sHhH6Xbcib5xx0Up7nUkKYEuGhZ0BLtfBYLqsw_X___o-2niKnuLJcrOKamIKYIWAuOcH3Pl/pubhtml",
+      "EIBs": [],
+      "Adapters": [],
+      "3D": "Accelerometer",
+      "Chart": {
+        "Acquisition System": "Acquisition board",
+        "Dimensions": "15.1 x 26 mm",
+        "Mass": "1.1 g",
+        "Probe Connector": "1x Omnetics A79025: 36 pins, 4 guide posts",
+        "Tether Connector": "12-pin SPI",
+        "REF and GND": "REF and GND connections tied together using the R0 0-ohm jumper resistor that can be removed",
+        "Source Repo": "https://github.com/open-ephys/vertical-profile-spi-headstage-32ch/tree/b4f33e54d2db8ce6c290a44bb6fce44c8458ad05",
+        "Release": "Revision 1.1"
+      }
+    },
+    {
+      "SKU": "OEPS-6574",
+      "Name": "SPI Headstage 16ch Bipolar",
       "Mapping": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS1gLC6sHhH6Xbcib5xx0Up7nUkKYEuGhZ0BLtfBYLqsw_X___o-2niKnuLJcrOKamIKYIWAuOcH3Pl/pubhtml",
       "EIBs": [],
       "Adapters": [],
@@ -166,7 +158,6 @@
         "Mass": "1.1 g",
         "Probe Connector": "1x Omnetics A79025: 36 pins, 4 guide posts",
         "Tether Connector": "12-pin SPI",
-        "Operating Voltage": "3.3 V (3.2 - 3.6 V)",
         "REF and GND": "REF and GND connections tied together using the R0 0-ohm jumper resistor that can be removed",
         "Source Repo": "https://github.com/open-ephys/vertical-profile-3d-headstage-32ch/tree/1d0a5a96fac3b563b6898d3760aa07ea882179af",
         "Release": "Revision 1.1"
@@ -174,7 +165,7 @@
     },
     {
       "SKU": "OEPS-6577",
-      "Name": "SPI Headstage 16 Bipolar 3D",
+      "Name": "SPI Headstage 16ch Bipolar with 3D",
       "Mapping": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS1gLC6sHhH6Xbcib5xx0Up7nUkKYEuGhZ0BLtfBYLqsw_X___o-2niKnuLJcrOKamIKYIWAuOcH3Pl/pubhtml",
       "EIBs": [],
       "Adapters": [],
@@ -185,7 +176,6 @@
         "Mass": "1.1 g",
         "Probe Connector": "1x Omnetics A79025: 36 pins, 4 guide posts",
         "Tether Connector": "12-pin SPI",
-        "Operating Voltage": "3.3 V (3.2 - 3.6 V)",
         "REF and GND": "REF and GND connections tied together using the R0 0-ohm jumper resistor that can be removed",
         "Source Repo": "https://github.com/open-ephys/vertical-profile-3d-headstage-32ch/tree/1d0a5a96fac3b563b6898d3760aa07ea882179af",
         "Release": "Revision 1.1"
