@@ -4,10 +4,10 @@ Here you can find the specifications and channel mapping for all the headstages,
 
 Check out the :ref:`guide` to understand how to use these materials.
 
-Usage Manuals for each device are in the `documentation sites <https://open-ephys.org/doc-overview/>`__ of their respective acquisition systems.
+Usage manuals for each device are in the `documentation sites <https://open-ephys.org/doc-overview/>`__ of their respective acquisition systems.
 
-Headstages
-==================
+
+.. rubric:: Headstages
 
 .. include:: headstages/headstage-cards.rst
 

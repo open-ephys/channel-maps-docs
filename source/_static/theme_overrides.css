@@ -133,11 +133,6 @@ a.headerlink:hover {
   transition-duration: 0.2s;
 }
 
-/* paragraph indent */
-p {
-  text-indent: 1em;
-}
-
 /* text fonts and colors */
 body {
   background-color: white;
@@ -145,6 +140,12 @@ body {
   font-size: 1rem;
   color: #242c16;
   font-family: "Source Sans", sans-serif;
+}
+
+.rubric {
+  font-family: "Bitter", sans-serif;
+  font-weight: normal !important;
+  font-size: 2.2em;
 }
 
 h1 {
