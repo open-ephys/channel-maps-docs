@@ -6,7 +6,7 @@
         :link: /headstages/oeps-7741
         :text-align: center
         :class-card: intro-card
-        :img-top: /_static/images/OEPS-7741/main/OEPS-7741_main.jpg
+        :img-top: /_static/images/OEPS-7741/hs/OEPS-7741.jpg
         :img-alt: OEPS-7741
 
         **(OEPS-7741)**
@@ -16,7 +16,7 @@
         :link: /headstages/oeps-7743
         :text-align: center
         :class-card: intro-card
-        :img-top: /_static/images/OEPS-7743/main/OEPS-7743_main.jpg
+        :img-top: /_static/images/OEPS-7743/hs/OEPS-7743.jpg
         :img-alt: OEPS-7743
 
         **(OEPS-7743)**
@@ -26,7 +26,7 @@
         :link: /headstages/oeps-7745
         :text-align: center
         :class-card: intro-card
-        :img-top: /_static/images/OEPS-7745/main/OEPS-7745_main.jpg
+        :img-top: /_static/images/OEPS-7745/hs/OEPS-7745.jpg
         :img-alt: OEPS-7745
 
         **(OEPS-7745)**
@@ -36,7 +36,7 @@
         :link: /headstages/oeps-7746
         :text-align: center
         :class-card: intro-card
-        :img-top: /_static/images/OEPS-7746/main/OEPS-7746_main.jpg
+        :img-top: /_static/images/OEPS-7746/hs/OEPS-7746.jpg
         :img-alt: OEPS-7746
 
         **(OEPS-7746)**
@@ -46,7 +46,7 @@
         :link: /headstages/oeps-6570
         :text-align: center
         :class-card: intro-card
-        :img-top: /_static/images/OEPS-6570/main/OEPS-6570_main.jpg
+        :img-top: /_static/images/OEPS-6570/hs/OEPS-6570.jpg
         :img-alt: OEPS-6570
 
         **(OEPS-6570)**
@@ -56,7 +56,7 @@
         :link: /headstages/oeps-6571
         :text-align: center
         :class-card: intro-card
-        :img-top: /_static/images/OEPS-6571/main/OEPS-6571_main.jpg
+        :img-top: /_static/images/OEPS-6571/hs/OEPS-6571.jpg
         :img-alt: OEPS-6571
 
         **(OEPS-6571)**
@@ -66,7 +66,7 @@
         :link: /headstages/oeps-6573
         :text-align: center
         :class-card: intro-card
-        :img-top: /_static/images/OEPS-6573/main/OEPS-6573_main.jpg
+        :img-top: /_static/images/OEPS-6573/hs/OEPS-6573.jpg
         :img-alt: OEPS-6573
 
         **(OEPS-6573)**
@@ -76,7 +76,7 @@
         :link: /headstages/oeps-6576
         :text-align: center
         :class-card: intro-card
-        :img-top: /_static/images/OEPS-6576/main/OEPS-6576_main.jpg
+        :img-top: /_static/images/OEPS-6576/hs/OEPS-6576.jpg
         :img-alt: OEPS-6576
 
         **(OEPS-6576)**
@@ -86,7 +86,7 @@
         :link: /headstages/oeps-6574
         :text-align: center
         :class-card: intro-card
-        :img-top: /_static/images/OEPS-6574/main/OEPS-6574_main.jpg
+        :img-top: /_static/images/OEPS-6574/hs/OEPS-6574.jpg
         :img-alt: OEPS-6574
 
         **(OEPS-6574)**
@@ -96,7 +96,7 @@
         :link: /headstages/oeps-6577
         :text-align: center
         :class-card: intro-card
-        :img-top: /_static/images/OEPS-6577/main/OEPS-6577_main.jpg
+        :img-top: /_static/images/OEPS-6577/hs/OEPS-6577.jpg
         :img-alt: OEPS-6577
 
         **(OEPS-6577)**
