@@ -3,7 +3,8 @@
     {
       "SKU": "OEPS-7741",
       "Name": "ONIX Headstage 64",
-      "EIBs": [{"SKU":"OEPS-6813", "Name":"ShuttleDrive 64-ch Hirose EIB"}, {"SKU":"OEPS-6813", "Name":"ShuttleDrive 64-ch Hirose EIB"}],
+      "Mapping": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSxEZVG5xytX9CU5a87evB-YSvePfsPWiUGv_nH_SoK7Be4nRgFMId30PxKsUkr2QmLoIl2BF-KabnA/pubhtml",
+      "EIBs": [{"SKU":"OEPS-6813", "Name":"ShuttleDrive 64-ch Hirose EIB"}],
       "Adapters": [{"SKU":"OEPS-7200", "Name":"Hirose to Omnetics 64ch Adapter"}],
       "3D": "IMU",
       "Chart": {
@@ -58,10 +59,10 @@
     },
     {
       "SKU": "OEPS-7746",
-      "Name": "ONIX Headstage RHS2116",
+      "Name": "ONIX Headstage 32ch Stim/Record",
+      "Mapping": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSxEZVG5xytX9CU5a87evB-YSvePfsPWiUGv_nH_SoK7Be4nRgFMId30PxKsUkr2QmLoIl2BF-KabnA/pubhtml",
       "EIBs": [],
       "Adapters": [],
-      "3D": "IMU",
       "Chart": {
         "Acquisition System": "ONIX",
         "Dimensions": "15.2 x 25.5 mm",
@@ -77,6 +78,7 @@
     {
       "SKU": "OEPS-6570",
       "Name": "SPI Headstage 64 Low Profile",
+      "Mapping": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS1gLC6sHhH6Xbcib5xx0Up7nUkKYEuGhZ0BLtfBYLqsw_X___o-2niKnuLJcrOKamIKYIWAuOcH3Pl/pubhtml",
       "EIBs": [{"SKU":"OEPS-6813", "Name":"ShuttleDrive 64-ch Hirose EIB"}],
       "Adapters": [{"SKU":"OEPS-7200", "Name":"Hirose to Omnetics 64ch Adapter"}],
       "3D": "Accelerometer",
@@ -96,6 +98,7 @@
     {
       "SKU": "OEPS-6571",
       "Name": "SPI Headstage 64 Low Profile 3D",
+      "Mapping": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS1gLC6sHhH6Xbcib5xx0Up7nUkKYEuGhZ0BLtfBYLqsw_X___o-2niKnuLJcrOKamIKYIWAuOcH3Pl/pubhtml",
       "EIBs": [],
       "Adapters": [],
       "3D": "IMU",
@@ -114,6 +117,7 @@
     },
     {
       "SKU": "OEPS-6573",
+      "Mapping": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS1gLC6sHhH6Xbcib5xx0Up7nUkKYEuGhZ0BLtfBYLqsw_X___o-2niKnuLJcrOKamIKYIWAuOcH3Pl/pubhtml",
       "Name": "SPI Headstage 32",
       "EIBs": [],
       "Adapters": [],
@@ -133,6 +137,7 @@
     {
       "SKU": "OEPS-6574",
       "Name": "SPI Headstage 32 3D",
+      "Mapping": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS1gLC6sHhH6Xbcib5xx0Up7nUkKYEuGhZ0BLtfBYLqsw_X___o-2niKnuLJcrOKamIKYIWAuOcH3Pl/pubhtml",
       "EIBs": [],
       "Adapters": [],
       "3D": "Accelerometer",
@@ -151,6 +156,7 @@
     {
       "SKU": "OEPS-6576",
       "Name": "SPI Headstage 16 Bipolar",
+      "Mapping": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS1gLC6sHhH6Xbcib5xx0Up7nUkKYEuGhZ0BLtfBYLqsw_X___o-2niKnuLJcrOKamIKYIWAuOcH3Pl/pubhtml",
       "EIBs": [],
       "Adapters": [],
       "3D": "IMU",
@@ -169,6 +175,7 @@
     {
       "SKU": "OEPS-6577",
       "Name": "SPI Headstage 16 Bipolar 3D",
+      "Mapping": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS1gLC6sHhH6Xbcib5xx0Up7nUkKYEuGhZ0BLtfBYLqsw_X___o-2niKnuLJcrOKamIKYIWAuOcH3Pl/pubhtml",
       "EIBs": [],
       "Adapters": [],
       "3D": "IMU",
