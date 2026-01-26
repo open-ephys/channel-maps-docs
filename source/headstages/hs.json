@@ -4,7 +4,7 @@
       "SKU": "OEPS-7741",
       "Name": "ONIX Headstage Ephys 64ch",
       "Mapping": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSxEZVG5xytX9CU5a87evB-YSvePfsPWiUGv_nH_SoK7Be4nRgFMId30PxKsUkr2QmLoIl2BF-KabnA/pubhtml",
-      "EIBs": [{"SKU":"OEPS-6813", "Name":"ShuttleDrive 64-ch Hirose EIB"}],
+      "EIBs": [{"SKU":"OEPS-6813", "Name":"ShuttleDrive 64ch Hirose EIB"}],
       "Adapters": [{"SKU":"OEPS-7200", "Name":"Adapter Hirose to Omnetics 64ch"}],
       "3D": "IMU",
       "Chart": {
@@ -75,7 +75,7 @@
       "SKU": "OEPS-6570",
       "Name": "SPI Headstage 64ch Low Profile",
       "Mapping": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS1gLC6sHhH6Xbcib5xx0Up7nUkKYEuGhZ0BLtfBYLqsw_X___o-2niKnuLJcrOKamIKYIWAuOcH3Pl/pubhtml",
-      "EIBs": [{"SKU":"OEPS-6813", "Name":"ShuttleDrive 64-ch Hirose EIB"}],
+      "EIBs": [{"SKU":"OEPS-6813", "Name":"ShuttleDrive 64ch Hirose EIB"}],
       "Adapters": [{"SKU":"OEPS-7200", "Name":"Adapter Hirose to Omnetics 64ch"}],
       "3D": "Accelerometer",
       "Chart": {
@@ -94,7 +94,7 @@
       "SKU": "OEPS-6571",
       "Name": "SPI Headstage 64ch Low Profile with 3D",
       "Mapping": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS1gLC6sHhH6Xbcib5xx0Up7nUkKYEuGhZ0BLtfBYLqsw_X___o-2niKnuLJcrOKamIKYIWAuOcH3Pl/pubhtml",
-      "EIBs": [{"SKU":"OEPS-6813", "Name":"ShuttleDrive 64-ch Hirose EIB"}],
+      "EIBs": [{"SKU":"OEPS-6813", "Name":"ShuttleDrive 64ch Hirose EIB"}],
       "Adapters": [{"SKU":"OEPS-7200", "Name":"Adapter Hirose to Omnetics 64ch"}],
       "3D": "IMU",
       "Chart": {
