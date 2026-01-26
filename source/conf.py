@@ -217,7 +217,7 @@ with open('headstages/hs.json', mode='r') as hs_json:
     hs_data = json.load(hs_json)
     # print(json.dumps(hs_data, indent=4))
 
-with open('eib/eib.json', mode='r') as eib_json:
+with open('eibs/eib.json', mode='r') as eib_json:
     eib_data = json.load(eib_json)
 
 html_context = {

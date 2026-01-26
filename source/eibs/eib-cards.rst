@@ -1,9 +1,9 @@
 ..  grid:: 4
     :gutter: 4
 
-    ..  grid-item-card:: EIB 1
+    ..  grid-item-card:: ShuttleDrive 64ch Hirose EIB
         :link-type: doc
-        :link: /eib/oeps-6813
+        :link: /eibs/oeps-6813
         :text-align: center
         :class-card: intro-card
         :img-top: /_static/images/OEPS-6813/eib/OEPS-6813.jpg

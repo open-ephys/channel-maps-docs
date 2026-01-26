@@ -1,2 +1,2 @@
-{% for eib in eib_data.Headstages | selectattr('SKU', 'equalto', 'OEPS-6813') %} 
+{% for eib in eib_data.EIBs | selectattr('SKU', 'equalto', 'OEPS-6813') %}
 {% include 'eib.rst' %} {% endfor %}

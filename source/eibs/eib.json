@@ -2,17 +2,19 @@
   "EIBs": [
     {
       "SKU": "OEPS-6813",
-      "Name": "ShuttleDrive 64-ch Hirose EIB",
+      "Name": "ShuttleDrive 64ch Hirose EIB",
+      "Mapping": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSxEZVG5xytX9CU5a87evB-YSvePfsPWiUGv_nH_SoK7Be4nRgFMId30PxKsUkr2QmLoIl2BF-KabnA/pubhtml",
+      "Headstages": [{"SKU":"OEPS-7741", "Name":"ONIX Headstage Ephys 64ch"}],
       "Chart": {
-        "Acquisition System": "ONIX",
-        "Dimensions": "18.6mm diameter",
-        "Mass": "1.5 g",
+        "Acquisition System": "to edit",
+        "Dimensions": "to edit",
+        "Mass": "to edit",
         "Probe Connector": "1x Hirose DF40C-70DP-0.4V(51)",
-        "Tether Connector": "X.Fl",
+        "Tether Connector": "to edit",
         "REF and GND": "REF and GND connections tied together using the R29 0-ohm jumper resistor that can be removed",
-        "Source Repo": "https://github.com/open-ephys/onix-headstage-64",
-        "Release": "Revision 1.3B"
-         }
+        "Source Repo": "to edit",
+        "Release": "to edit"
+ }
     }
   ]
 }
