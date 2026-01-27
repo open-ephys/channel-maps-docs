@@ -14,7 +14,7 @@
     "**{{ key }}**", "{{ value }}"{% endfor %}
 
 {% if eib.Pinout is defined %}
-..  figure:: /_static/images/{{ eib.SKU }}/eib/{{ eib.SKU }}_connector_map_example.jpg
+..  figure:: /_static/images/{{ eib.SKU }}/eib/{{ eib.SKU }}_connector_map.jpg
     :align: center
     :width: 70%
 
