@@ -15,6 +15,10 @@ Usage manuals for each device are in the `documentation sites <https://open-ephy
 
 .. include:: eibs/eib-cards.rst
 
+.. rubric:: Adapters
+
+.. include:: adapters/adapter-cards.rst
+
 .. toctree::
     :hidden:
     :maxdepth: 2
@@ -23,3 +27,4 @@ Usage manuals for each device are in the `documentation sites <https://open-ephy
     User Guide/index
     headstages/index
     eibs/index
+    adapters/index

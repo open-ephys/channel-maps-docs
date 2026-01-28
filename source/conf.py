@@ -220,6 +220,9 @@ with open('headstages/hs.json', mode='r') as hs_json:
 with open('eibs/eib.json', mode='r') as eib_json:
     eib_data = json.load(eib_json)
 
+with open('adapters/adapter.json', mode='r') as adapter_json:
+    adapter_data = json.load(adapter_json)
+
 html_context = {
     "github_user": "open-ephys",
     "github_repo": "doc-template",
@@ -228,6 +231,7 @@ html_context = {
     'default_mode': 'light',
     'hs_data': hs_data,
     'eib_data': eib_data,
+    'adapter_data': adapter_data,
 }
 
 # Option for linkcheck

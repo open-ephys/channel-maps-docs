@@ -1,0 +1,38 @@
+{
+  "Adapters": [
+    {
+      "SKU": "OEPS-7200",
+      "Name": "Adapter Hirose to Omnetics 64ch",
+      "Pinout": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSxEZVG5xytX9CU5a87evB-YSvePfsPWiUGv_nH_SoK7Be4nRgFMId30PxKsUkr2QmLoIl2BF-KabnA/pubhtml",
+      "Headstages": [{"SKU":"OEPS-7741", "Name":"ONIX Headstage Ephys 64ch"}, {"SKU":"OEPS-6570", "Name":"Low-profile SPI Headstage 64ch"}, {"SKU":"OEPS-6571", "Name":"Low-profile SPI Headstage 64ch with 3D"}],
+      "Chart": {
+        "Dimensions": "",
+        "Thickness": "??? , Board: 0.8 mm",
+        "Mass": "",
+        "Holes size": "",
+        "Additional vias": "",
+        "Connector": "1x Hirose DF40C-70DP-0.4V(51), 2x 36-pin Omnetics #A79025-001",
+        "Source Repo": "",
+        "Release": "",
+        "Compatible Headstages": "`ONIX Headstage Ephys 64ch <https://open-ephys.github.io/channel-maps-docs/headstages/oeps-7741.html>`_, `SPI Headstage 64ch Low Profile <https://open-ephys.github.io/channel-maps-docs/headstages/oeps-6570.html>`_, `SPI Headstage 64ch Low Profile with 3D <https://open-ephys.github.io/channel-maps-docs/headstages/oeps-6571.html>`_"
+ }
+    },
+    {
+      "SKU": "OEPS-7201",
+      "Name": "Adapter Hirose to Omnetics 32ch",
+      "Pinout": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSxEZVG5xytX9CU5a87evB-YSvePfsPWiUGv_nH_SoK7Be4nRgFMId30PxKsUkr2QmLoIl2BF-KabnA/pubhtml",
+      "Headstages": [{"SKU":"OEPS-6573", "Name":"SPI Headstage 32ch"}, {"SKU":"OEPS-6573", "Name":"SPI Headstage 32ch with 3D"}, {"SKU":"OEPS-6574", "Name":"SPI Headstage 16ch Bipolar"}, {"SKU":"OEPS-6577", "Name":"SPI Headstage 16ch Bipolar with 3D"}, {"SKU":"OEPS-7746", "Name":"ONIX Headstage 32ch Stim/Record"}],
+      "Chart": {
+        "Dimensions": "",
+        "Thickness": "??? , Board: 0.8 mm",
+        "Mass": "",
+        "Holes size": "",
+        "Additional vias": "",
+        "Connector": "1x 36-pin Omnetics #A79026-001, 1x 36-pin Omnetics #A79025-001",
+        "Source Repo": "",
+        "Release": "",
+        "Compatible Headstages": "`ONIX Headstage Ephys 64ch <https://open-ephys.github.io/channel-maps-docs/headstages/oeps-7741.html>`_, `SPI Headstage 64ch Low Profile <https://open-ephys.github.io/channel-maps-docs/headstages/oeps-6570.html>`_, `SPI Headstage 64ch Low Profile with 3D <https://open-ephys.github.io/channel-maps-docs/headstages/oeps-6571.html>`_"
+ }
+    }
+  ]
+}
