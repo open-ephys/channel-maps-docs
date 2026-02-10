@@ -30,3 +30,13 @@
         :img-alt: OEPS-6810
 
         **(OEPS-6810)**
+    
+    ..  grid-item-card:: FlexDrive 64ch Omnetics EIB
+        :link-type: doc
+        :link: /eibs/oeps-6805
+        :text-align: center
+        :class-card: intro-card
+        :img-top: /_static/images/OEPS-6805/eib/OEPS-6805.jpg
+        :img-alt: OEPS-6805
+
+        **(OEPS-6805)**
