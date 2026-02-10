@@ -1,0 +1,2 @@
+{% for eib in eib_data.EIBs | selectattr('SKU', 'equalto', 'OEPS-6810') %}
+{% include 'eib.rst' %} {% endfor %}
