@@ -13,3 +13,4 @@ Adapters
   
     oeps-7200
     oeps-7201
+    oeps-6820

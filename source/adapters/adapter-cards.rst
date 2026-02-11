@@ -20,3 +20,13 @@
         :img-alt: OEPS-7201
 
         **(OEPS-7201)**
+    
+    ..  grid-item-card:: NanoZ Adapter for 64ch Hirose EIB
+        :link-type: doc
+        :link: /adapters/oeps-6820
+        :text-align: center
+        :class-card: intro-card
+        :img-top: /_static/images/OEPS-6820/adapter/OEPS-6820.jpg
+        :img-alt: OEPS-6820
+
+        **(OEPS-6820)**
