@@ -55,7 +55,7 @@
       "SKU": "OEPS-6805",
       "Name": "FlexDrive 64ch Omnetics EIB",
       "Pinout": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSxEZVG5xytX9CU5a87evB-YSvePfsPWiUGv_nH_SoK7Be4nRgFMId30PxKsUkr2QmLoIl2BF-KabnA/pubhtml",
-      "Headstages": [{"SKU":"OEPS-6573", "Name":"SPI Headstage 32ch"}, {"SKU":"OEPS-6576", "Name":"SPI Headstage 32ch with 3D"}],
+      "Headstages": [{"SKU":"OEPS-6573", "Name":"SPI Headstage 32ch"}, {"SKU":"OEPS-6576", "Name":"SPI Headstage 32ch with 3D"}, {"SKU":"OEPS-7746", "Name":"ONIX Headstage 32ch Stim/Record"}],
       "Chart": {
         "Dimensions": "21.3 mm diameter",
         "Thickness": "5.7 mm",
@@ -65,7 +65,7 @@
         "Connector": "2x 36-pin Omnetics A79026-001, placed at a distance of ~3 mm",
         "Source Repo": "https://github.com/open-ephys/shuttle-drive/tree/master/large_64drives",
         "Release": "v1.3",
-        "Compatible Headstages": "2x `SPI Headstage 32ch <https://open-ephys.github.io/channel-maps-docs/headstages/oeps-6573.html>`_, 2x `SPI Headstage 32ch with 3D <https://open-ephys.github.io/channel-maps-docs/headstages/oeps-6576.html>`_"
+        "Compatible Headstages": "`SPI Headstage 32ch <https://open-ephys.github.io/channel-maps-docs/headstages/oeps-6573.html>`_, `SPI Headstage 32ch with 3D <https://open-ephys.github.io/channel-maps-docs/headstages/oeps-6576.html>`_, `ONIX Headstage 32ch Stim/Record <https://open-ephys.github.io/channel-maps-docs/headstages/oeps-7746.html>`_"
  }
     }
   ]
