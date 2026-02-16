@@ -38,7 +38,7 @@
         :align: center
         :width: 70%
 
-        EIB combination channel map on Nanoz GUI. Using no adapter and no probe.
+        EIB combination channel map on Nanoz GUI - using no adapter and no probe.
 {% endif %}
 
 {% if adapter.Pinout is defined %}

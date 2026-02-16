@@ -21,15 +21,15 @@
       "SKU": "OEPS-6809",
       "Name": "ShuttleDrive 32ch Omnetics EIB",
       "Pinout": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSxEZVG5xytX9CU5a87evB-YSvePfsPWiUGv_nH_SoK7Be4nRgFMId30PxKsUkr2QmLoIl2BF-KabnA/pubhtml",
-      "Headstages": [{"SKU":"OEPS-6573", "Name":"SPI Headstage 32ch"}, {"SKU":"OEPS-6573", "Name":"SPI Headstage 32ch with 3D"}, {"SKU":"OEPS-6574", "Name":"SPI Headstage 16ch Bipolar"}, {"SKU":"OEPS-6577", "Name":"SPI Headstage 16ch Bipolar with 3D"}, {"SKU":"OEPS-7746", "Name":"ONIX Headstage 32ch Stim/Record"}],
+      "Headstages": [{"SKU":"OEPS-6573", "Name":"SPI Headstage 32ch"}, {"SKU":"OEPS-6576", "Name":"SPI Headstage 32ch with 3D"}, {"SKU":"OEPS-6574", "Name":"SPI Headstage 16ch Bipolar"}, {"SKU":"OEPS-6577", "Name":"SPI Headstage 16ch Bipolar with 3D"}, {"SKU":"OEPS-7746", "Name":"ONIX Headstage 32ch Stim/Record"}],
       "Chart": {
         "Dimensions": "15.9 mm diameter",
-        "Thickness": "5.8 mm with connector",
-        "Mass": "0.59 g with connector",
+        "Thickness": "5.8 mm",
+        "Mass": "0.59 g",
         "Holes size": "Large: 0.5 mm",
         "Additional vias": "Two holes for 1.25 mm fiber optic ferrules, and two holes for screws",
         "Connector": "1x 36-pin Omnetics A79026",
-        "Source Repo": "https://github.com/orgs/open-ephys/repositories",
+        "Source Repo": "https://github.com/open-ephys/shuttle-drive/tree/master/small_16drives/EIBs/eib-32-intan-hs",
         "Release": "Version 1.4",
         "Compatible Headstages": "`SPI Headstage 32ch <https://open-ephys.github.io/channel-maps-docs/headstages/oeps-6573.html>`_, `SPI Headstage 32ch with 3D <https://open-ephys.github.io/channel-maps-docs/headstages/oeps-6576.html>`_, `SPI Headstage 16ch Bipolar <https://open-ephys.github.io/channel-maps-docs/headstages/oeps-6574.html>`_, `SPI Headstage 16ch Bipolar with 3D <https://open-ephys.github.io/channel-maps-docs/headstages/oeps-6577.html>`_, `ONIX Headstage 32ch Stim/Record <https://open-ephys.github.io/channel-maps-docs/headstages/oeps-7746.html>`_"
  }
@@ -38,34 +38,34 @@
       "SKU": "OEPS-6810",
       "Name": "ShuttleDrive 64ch Omnetics EIB",
       "Pinout": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSxEZVG5xytX9CU5a87evB-YSvePfsPWiUGv_nH_SoK7Be4nRgFMId30PxKsUkr2QmLoIl2BF-KabnA/pubhtml",
-      "Headstages": [{"SKU":"OEPS-6573", "Name":"SPI Headstage 32ch"}, {"SKU":"OEPS-6573", "Name":"SPI Headstage 32ch with 3D"}],
+      "Headstages": [{"SKU":"#C3315, #C3325", "Name":"Intan RHD 64ch Recording Headstage"}],
       "Chart": {
         "Dimensions": "15.9 mm diameter",
-        "Thickness": "5.8 mm with connectors",
-        "Mass": "0.69 g with connectors",
+        "Thickness": "5.8 mm",
+        "Mass": "0.69 g",
         "Holes size": "Small: 0.3 mm",
         "Additional vias": "One hole for 0.70 mm fiber optic ferrule",
-        "Connector": "2x 36-pin Omnetics A79026-001, placed at a distance of ~0.7 mm",
+        "Connector": "2x 36-pin Omnetics A79026-001, placed at a distance of 0.076 in",
         "Source Repo": "https://github.com/open-ephys/shuttle-drive/tree/master/small_16drives/EIBs/eib-64-intan-hs",
         "Release": "v1.0",
-        "Compatible Headstages": "2x `SPI Headstage 32ch <https://open-ephys.github.io/channel-maps-docs/headstages/oeps-6573.html>`_, `Intan RHD 64ch Recording Headstage <https://intantech.com/RHD_headstages.html?tabSelect=RHD64ch&yPos=0>`_"
+        "Compatible Headstages": "`Intan RHD 64ch Recording Headstage <https://intantech.com/RHD_headstages.html?tabSelect=RHD64ch&yPos=0>`_"
  }
     },
     {
       "SKU": "OEPS-6805",
       "Name": "FlexDrive 64ch Omnetics EIB",
       "Pinout": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSxEZVG5xytX9CU5a87evB-YSvePfsPWiUGv_nH_SoK7Be4nRgFMId30PxKsUkr2QmLoIl2BF-KabnA/pubhtml",
-      "Headstages": [{"SKU":"OEPS-6573", "Name":"SPI Headstage 32ch"}, {"SKU":"OEPS-6573", "Name":"SPI Headstage 32ch with 3D"}],
+      "Headstages": [{"SKU":"OEPS-6573", "Name":"SPI Headstage 32ch"}, {"SKU":"OEPS-6576", "Name":"SPI Headstage 32ch with 3D"}],
       "Chart": {
         "Dimensions": "21.3 mm diameter",
-        "Thickness": "5.7 mm with connectors",
-        "Mass": "0.88 g with connectors",
+        "Thickness": "5.7 mm",
+        "Mass": "0.88 g",
         "Holes size": "Large: 0.5 mm",
         "Additional vias": "Three holes for 1.25 mm fiber optic ferrule",
         "Connector": "2x 36-pin Omnetics A79026-001, placed at a distance of ~3 mm",
-        "Source Repo": "https://github.com/open-ephys/flexDrive/tree/master/Electrode%20Interface%20Boards/Omnetics%202x32",
+        "Source Repo": "https://github.com/open-ephys/shuttle-drive/tree/master/large_64drives",
         "Release": "v1.3",
-        "Compatible Headstages": "2x `SPI Headstage 32ch <https://open-ephys.github.io/channel-maps-docs/headstages/oeps-6573.html>`_"
+        "Compatible Headstages": "2x `SPI Headstage 32ch <https://open-ephys.github.io/channel-maps-docs/headstages/oeps-6573.html>`_, 2x `SPI Headstage 32ch with 3D <https://open-ephys.github.io/channel-maps-docs/headstages/oeps-6576.html>`_"
  }
     }
   ]
