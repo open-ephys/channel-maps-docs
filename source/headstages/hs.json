@@ -5,7 +5,7 @@
       "Name": "ONIX Headstage Ephys 64ch",
       "Mapping": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSxEZVG5xytX9CU5a87evB-YSvePfsPWiUGv_nH_SoK7Be4nRgFMId30PxKsUkr2QmLoIl2BF-KabnA/pubhtml",
       "EIBs": [{"SKU":"OEPS-6813", "Name":"ShuttleDrive 64-ch Hirose EIB"}],
-      "Adapters": [{"SKU":"OEPS-7200", "Name":"Adapter Hirose to Omnetics 64ch"}],
+      "Adapters": [{"SKU":"OEPS-7200", "Name":"Adapter Hirose to Omnetics 64ch"}, {"SKU":"OEPS-7201", "Name":"Adapter Hirose to Omnetics 32ch"}],
       "3D": "IMU",
       "Chart": {
         "Acquisition System": "ONIX",
@@ -58,7 +58,7 @@
       "SKU": "OEPS-7746",
       "Name": "ONIX Headstage 32ch Stim/Record",
       "Mapping": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSxEZVG5xytX9CU5a87evB-YSvePfsPWiUGv_nH_SoK7Be4nRgFMId30PxKsUkr2QmLoIl2BF-KabnA/pubhtml",
-      "EIBs": [],
+      "EIBs": [{"SKU":"OEPS-6809", "Name":"ShuttleDrive 32-ch Hirose EIB"}],
       "Adapters": [],
       "Chart": {
         "Acquisition System": "ONIX",
@@ -113,7 +113,7 @@
       "SKU": "OEPS-6573",
       "Mapping": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS1gLC6sHhH6Xbcib5xx0Up7nUkKYEuGhZ0BLtfBYLqsw_X___o-2niKnuLJcrOKamIKYIWAuOcH3Pl/pubhtml",
       "Name": "SPI Headstage 32ch",
-      "EIBs": [],
+      "EIBs": [{"SKU":"OEPS-6809", "Name":"ShuttleDrive 32-ch Hirose EIB"}],
       "Adapters": [],
       "3D": "Accelerometer",
       "Chart": {
@@ -131,7 +131,7 @@
       "SKU": "OEPS-6576",
       "Name": "SPI Headstage 32ch with 3D",
       "Mapping": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS1gLC6sHhH6Xbcib5xx0Up7nUkKYEuGhZ0BLtfBYLqsw_X___o-2niKnuLJcrOKamIKYIWAuOcH3Pl/pubhtml",
-      "EIBs": [],
+      "EIBs": [{"SKU":"OEPS-6809", "Name":"ShuttleDrive 32-ch Hirose EIB"}],
       "Adapters": [],
       "3D": "Accelerometer",
       "Chart": {
