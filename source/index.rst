@@ -8,7 +8,7 @@ Usage manuals for each device are in the `documentation sites <https://open-ephy
 
 
 .. rubric:: Headstages
-
+    
 .. include:: headstages/headstage-cards.rst
 
 .. rubric:: EIBs
