@@ -113,7 +113,7 @@
       "SKU": "OEPS-6573",
       "Mapping": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS1gLC6sHhH6Xbcib5xx0Up7nUkKYEuGhZ0BLtfBYLqsw_X___o-2niKnuLJcrOKamIKYIWAuOcH3Pl/pubhtml",
       "Name": "SPI Headstage 32ch",
-      "EIBs": [{"SKU":"OEPS-6809", "Name":"ShuttleDrive 32-ch Hirose EIB"}],
+      "EIBs": [{"SKU":"OEPS-6809", "Name":"ShuttleDrive 32-ch Hirose EIB"}, {"SKU":"OEPS-6805", "Name":"FlexDrive 64ch Omnetics EIB"}],
       "Adapters": [],
       "3D": "Accelerometer",
       "Chart": {
@@ -131,7 +131,7 @@
       "SKU": "OEPS-6576",
       "Name": "SPI Headstage 32ch with 3D",
       "Mapping": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS1gLC6sHhH6Xbcib5xx0Up7nUkKYEuGhZ0BLtfBYLqsw_X___o-2niKnuLJcrOKamIKYIWAuOcH3Pl/pubhtml",
-      "EIBs": [{"SKU":"OEPS-6809", "Name":"ShuttleDrive 32-ch Hirose EIB"}],
+      "EIBs": [{"SKU":"OEPS-6809", "Name":"ShuttleDrive 32-ch Hirose EIB"}, {"SKU":"OEPS-6805", "Name":"FlexDrive 64ch Omnetics EIB"}],
       "Adapters": [],
       "3D": "Accelerometer",
       "Chart": {
