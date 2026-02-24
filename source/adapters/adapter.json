@@ -38,7 +38,8 @@
         "Connector": "1x Hirose DF40C-70DP-0.4V(51)",
         "Source Repo": "https://github.com/open-ephys/eib-64-nanoz-adapter",
         "Release": "Revision 1.0",
-        "Compatible EIB": ":doc:`/eibs/oeps-6813`"
+        "Compatible EIB": ":doc:`/eibs/oeps-6813`",
+        "Adapter profile file": "https://github.com/open-ephys/eib-64-nanoz-adapter/issues/1"
   }    
       }
   ]
