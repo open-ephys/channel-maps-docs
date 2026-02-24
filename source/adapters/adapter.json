@@ -6,8 +6,7 @@
       "Pinout": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSxEZVG5xytX9CU5a87evB-YSvePfsPWiUGv_nH_SoK7Be4nRgFMId30PxKsUkr2QmLoIl2BF-KabnA/pubhtml",
       "Headstages": [{"SKU":"OEPS-7741", "Name":"ONIX Headstage Ephys 64ch"}, {"SKU":"OEPS-6570", "Name":"Low-profile SPI Headstage 64ch"}, {"SKU":"OEPS-6571", "Name":"Low-profile SPI Headstage 64ch with 3D"}],
       "Chart": {
-        "Dimensions": "19 mm, 9.13 mm",
-        "Thickness": "8.35 mm",
+        "Dimensions": "19 mm, 9.13 mm, 8.35 mm tall",
         "Mass": "1.03 g",
         "Additional vias": "A, C0, C1 and ES",
         "Connector": "2x 36-pin Omnetics A79025, placed at a distance of 0.914 mm (between both inner walls of the omnetics connectors)",
@@ -22,8 +21,7 @@
       "Pinout": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSxEZVG5xytX9CU5a87evB-YSvePfsPWiUGv_nH_SoK7Be4nRgFMId30PxKsUkr2QmLoIl2BF-KabnA/pubhtml",
       "Headstages": [{"SKU":"OEPS-7741", "Name":"ONIX Headstage Ephys 64ch"}, {"SKU":"OEPS-6570", "Name":"Low-profile SPI Headstage 64ch"}, {"SKU":"OEPS-6571", "Name":"Low-profile SPI Headstage 64ch with 3D"}],
       "Chart": {
-        "Dimensions": "19 mm , 9.13 mm",
-        "Thickness": "8.35 mm",
+        "Dimensions": "19 mm , 9.13 mm, 8.35 mm tall",
         "Mass": "0.80 g",
         "Connector": "1x 36-pin Omnetics A79025",
         "Source Repo": "https://github.com/open-ephys/adapter-hirose-omnetics-64/tree/main",

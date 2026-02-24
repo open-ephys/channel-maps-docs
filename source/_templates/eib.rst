@@ -14,19 +14,19 @@
     "**{{ key }}**", "{{ value }}"{% endfor %}
 
 {% if eib.Pinout is defined %}
-..  figure:: /_static/images/{{ eib.SKU }}/eib/{{ eib.SKU }}_connector_map.jpg
-    :align: center
-    :width: 70%
-
-    Connector mapping.
-{% endif %}
-
-{% if eib.Pinout is defined %}
 ..  figure:: /_static/images/{{ eib.SKU }}/eib/{{ eib.SKU }}_connector_pinout.jpg
     :align: center
     :width: 70%
 
-    Connector pinout.
+    Connector pinout (pins).
+{% endif %}
+
+{% if eib.Pinout is defined %}
+..  figure:: /_static/images/{{ eib.SKU }}/eib/{{ eib.SKU }}_connector_map.jpg
+    :align: center
+    :width: 70%
+
+    Connector pinout (vias).
 {% endif %}
 
 {% if eib.Headstages is defined and eib.Headstages|length > 0 %}

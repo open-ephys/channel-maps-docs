@@ -25,14 +25,6 @@
     EIB combination mounting
 {% endfor%}
 
-{% if adapter.Pinout is defined and adapter.SKU != 'OEPS-6820' %}
-.. figure:: /_static/images/{{ adapter.SKU }}/adapter/{{ adapter.SKU }}_connector_map.jpg
-    :align: center
-    :width: 70%
-
-    Connector mapping.
-{% endif %}
-
 {% if adapter.SKU == 'OEPS-6820' %}
 .. figure:: /_static/images/OEPS-6820/adapter/OEPS-6820_connector_map.jpg
         :align: center
@@ -46,7 +38,15 @@
     :align: center
     :width: 70%
 
-    Connector pinout.
+    Connector pinout (pins).
+{% endif %}
+
+{% if adapter.Pinout is defined and adapter.SKU != 'OEPS-6820' %}
+.. figure:: /_static/images/{{ adapter.SKU }}/adapter/{{ adapter.SKU }}_connector_map.jpg
+    :align: center
+    :width: 70%
+
+    Connector pinout (vias).
 {% endif %}
 
 {% if adapter.Headstages is defined and adapter.Headstages|length > 0 %}
