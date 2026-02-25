@@ -18,7 +18,7 @@
     :align: center
     :width: 70%
 
-    Channel map. For Open Ephys GUI channel numbers, add 1.
+    Channel map
 {% endif %}
 
 {% if hs.SKU == 'OEPS-7741' %}
@@ -28,7 +28,7 @@
         :align: center
         :width: 70%
 
-        Channel map. For Open Ephys GUI channel number, add 1.
+        Channel map
 {% endif %}
 
 {% if hs['3D'] is defined %}

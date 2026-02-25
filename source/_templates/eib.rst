@@ -18,7 +18,7 @@
     :align: center
     :width: 70%
 
-    Connector pinout (pins).
+    Connector pinout (pins)
 {% endif %}
 
 {% if eib.Pinout is defined %}
@@ -26,7 +26,7 @@
     :align: center
     :width: 70%
 
-    Connector pinout (vias).
+    Connector pinout (vias)
 {% endif %}
 
 {% if eib.Headstages is defined and eib.Headstages|length > 0 %}

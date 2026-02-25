@@ -38,7 +38,7 @@
     :align: center
     :width: 70%
 
-    Connector pinout (pins).
+    Connector pinout (pins)
 {% endif %}
 
 {% if adapter.Pinout is defined and adapter.SKU != 'OEPS-6820' %}
@@ -46,7 +46,7 @@
     :align: center
     :width: 70%
 
-    Connector pinout (vias).
+    Connector pinout (vias)
 {% endif %}
 
 {% if adapter.Headstages is defined and adapter.Headstages|length > 0 %}
