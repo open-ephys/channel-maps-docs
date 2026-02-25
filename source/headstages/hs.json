@@ -105,7 +105,7 @@
         "Tether Connector": "12-pin SPI",
         "REF and GND": "REF and GND connections tied together using the R1 0-ohm jumper resistor that can be removed",
         "Mounting Features": "One 3.3 x 5.8 mm cutout",
-        "Source Repo": "https://github.com/open-ephys/low-profile-3d-headstage-64ch",
+        "Source Repo": "https://github.com/open-ephys/low-profile-headstage-64ch-3d",
         "Release": "Revision 1.1"
       }
     },
