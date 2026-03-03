@@ -20,7 +20,7 @@ In each device page we include:
 
   - When adapters or EIBs compatible with that headstage exist, we have included the connection orientation and channel mapping for each combination.
 
-.. - For adapters and EIBs, we have included the pinout of which connector pins connect to which vias or pins. 
+  - For adapters and EIBs, we have included the pinout of which connector pins connect to which vias or pins. 
 
 - Additional sensor physical specifications such as accelerometer or inertial measurement unit orientation axes.
 

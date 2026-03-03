@@ -217,13 +217,21 @@ with open('headstages/hs.json', mode='r') as hs_json:
     hs_data = json.load(hs_json)
     # print(json.dumps(hs_data, indent=4))
 
+with open('eibs/eib.json', mode='r') as eib_json:
+    eib_data = json.load(eib_json)
+
+with open('adapters/adapter.json', mode='r') as adapter_json:
+    adapter_data = json.load(adapter_json)
+
 html_context = {
     "github_user": "open-ephys",
     "github_repo": "doc-template",
     "github_version": "main",
     "doc_path": "source",
     'default_mode': 'light',
-    'hs_data': hs_data
+    'hs_data': hs_data,
+    'eib_data': eib_data,
+    'adapter_data': adapter_data,
 }
 
 # Option for linkcheck
