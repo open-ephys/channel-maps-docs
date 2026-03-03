@@ -1,0 +1,45 @@
+{
+  "Adapters": [
+    {
+      "SKU": "OEPS-7200",
+      "Name": "Adapter Hirose to Omnetics 64ch",
+      "Pinout": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSxEZVG5xytX9CU5a87evB-YSvePfsPWiUGv_nH_SoK7Be4nRgFMId30PxKsUkr2QmLoIl2BF-KabnA/pubhtml",
+      "Headstages": [{"SKU":"OEPS-7741", "Name":"ONIX Headstage Ephys 64ch"}, {"SKU":"OEPS-6570", "Name":"Low-profile SPI Headstage 64ch"}, {"SKU":"OEPS-6571", "Name":"Low-profile SPI Headstage 64ch with 3D"}],
+      "Chart": {
+        "Dimensions": "19 mm, 9.13 mm, 8.35 mm tall",
+        "Mass": "1.03 g",
+        "Additional vias": "A, C0, C1 and ES",
+        "Connector": "2x 36-pin Omnetics A79025, placed at a distance of 0.914 mm (between both inner walls of the omnetics connectors)",
+        "Source Repo": "https://github.com/open-ephys/adapter-hirose-omnetics-64/tree/main",
+        "Revision": "1.0",
+        "Compatible Headstages": ":doc:`/headstages/oeps-7741`, :doc:`/headstages/oeps-6570`, :doc:`/headstages/oeps-6571`"
+ }
+    },
+    {
+      "SKU": "OEPS-7201",
+      "Name": "Adapter Hirose to Omnetics 32ch",
+      "Pinout": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSxEZVG5xytX9CU5a87evB-YSvePfsPWiUGv_nH_SoK7Be4nRgFMId30PxKsUkr2QmLoIl2BF-KabnA/pubhtml",
+      "Headstages": [{"SKU":"OEPS-7741", "Name":"ONIX Headstage Ephys 64ch"}, {"SKU":"OEPS-6570", "Name":"Low-profile SPI Headstage 64ch"}, {"SKU":"OEPS-6571", "Name":"Low-profile SPI Headstage 64ch with 3D"}],
+      "Chart": {
+        "Dimensions": "19 mm , 9.13 mm, 8.35 mm tall",
+        "Mass": "0.80 g",
+        "Connector": "1x 36-pin Omnetics A79025",
+        "Source Repo": "https://github.com/open-ephys/adapter-hirose-omnetics-64/tree/main",
+        "Revision": "1.0",
+        "Compatible Headstages": ":doc:`/headstages/oeps-7741`, :doc:`/headstages/oeps-6570`, :doc:`/headstages/oeps-6571`"
+ }
+    },
+    {
+      "SKU": "OEPS-6820",
+      "Name": "NanoZ Adapter for 64ch Hirose EIB",
+      "Pinout": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSxEZVG5xytX9CU5a87evB-YSvePfsPWiUGv_nH_SoK7Be4nRgFMId30PxKsUkr2QmLoIl2BF-KabnA/pubhtml",
+      "EIBs": [{"SKU":"OEPS-6813", "Name":"ShuttleDrive 64ch Hirose EIB"}],
+      "Chart": {
+        "Connector": "1x Hirose DF40C-70DP-0.4V(51)",
+        "Source Repo": "https://github.com/open-ephys/eib-64-nanoz-adapter",
+        "Revision": "1.0",
+        "Compatible EIB": ":doc:`/eibs/oeps-6813`"
+  }    
+      }
+  ]
+}

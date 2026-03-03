@@ -4,7 +4,7 @@
       "SKU": "OEPS-7741",
       "Name": "ONIX Headstage Ephys 64ch",
       "Mapping": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSxEZVG5xytX9CU5a87evB-YSvePfsPWiUGv_nH_SoK7Be4nRgFMId30PxKsUkr2QmLoIl2BF-KabnA/pubhtml",
-      "EIBs": [{"SKU":"OEPS-6813", "Name":"ShuttleDrive 64-ch Hirose EIB"}],
+      "EIBs": [{"SKU":"OEPS-6813", "Name":"ShuttleDrive 64ch Hirose EIB"}],
       "Adapters": [{"SKU":"OEPS-7200", "Name":"Adapter Hirose to Omnetics 64ch"}, {"SKU":"OEPS-7201", "Name":"Adapter Hirose to Omnetics 32ch"}],
       "3D": "IMU",
       "Chart": {
@@ -15,7 +15,7 @@
         "Tether Connector": "X.Fl",
         "REF and GND": "REF and GND connections tied together using the R29 0-ohm jumper resistor that can be removed",
         "Source Repo": "https://github.com/open-ephys/onix-headstage-64",
-        "Release": "Revision 1.3B"
+        "Revision": "1.3B"
       }
     },
     {
@@ -33,7 +33,7 @@
         "REF and GND": "REF and GND connections are not tied together",
         "Mounting Features": "Two M1.4 (1.4 mm in diameter) mounting holes",
         "Source Repo": "https://github.com/open-ephys/onix-headstage-neuropix1e",
-        "Release": "Revision A"
+        "Revision": "A"
       }
     },
     {
@@ -51,7 +51,7 @@
         "REF and GND": "REF and GND connections are not tied together",
         "Mounting Features": "Two 1.8 x 0.8 mm mounting holes",
         "Source Repo": "https://github.com/open-ephys/onix-headstage-neuropix2e",
-        "Release": "Revision B"
+        "Revision": "B"
       }
     },
     {
@@ -68,14 +68,14 @@
         "Tether Connector": "U.Fl",
         "REF and GND": "REF and GND connections tied together using the R18 0-ohm jumper resistor that can be removed",
         "Source Repo": "https://github.com/open-ephys/onix-headstage-rhs2116",
-        "Release": "Revision C"
+        "Revision": "C"
       }
     },
     {
       "SKU": "OEPS-6570",
       "Name": "SPI Headstage 64ch Low Profile",
       "Mapping": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS1gLC6sHhH6Xbcib5xx0Up7nUkKYEuGhZ0BLtfBYLqsw_X___o-2niKnuLJcrOKamIKYIWAuOcH3Pl/pubhtml",
-      "EIBs": [{"SKU":"OEPS-6813", "Name":"ShuttleDrive 64-ch Hirose EIB"}],
+      "EIBs": [{"SKU":"OEPS-6813", "Name":"ShuttleDrive 64ch Hirose EIB"}],
       "Adapters": [{"SKU":"OEPS-7200", "Name":"Adapter Hirose to Omnetics 64ch"}, {"SKU":"OEPS-7201", "Name":"Adapter Hirose to Omnetics 32ch"}],
       "3D": "Accelerometer",
       "Chart": {
@@ -87,14 +87,14 @@
         "REF and GND": "REF and GND connections tied together using the R1 0-ohm jumper resistor that can be removed. In revision 1.0, REF and GND are not connected.",
         "Mounting Features": "One 3.3 x 5.8 mm cutout",
         "Source Repo": "https://github.com/open-ephys/low-profile-spi-headstage-64ch",
-        "Release": "Revision 1.1"
+        "Revision": "1.1"
       }
     },
     {
       "SKU": "OEPS-6571",
       "Name": "SPI Headstage 64ch Low Profile with 3D",
       "Mapping": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS1gLC6sHhH6Xbcib5xx0Up7nUkKYEuGhZ0BLtfBYLqsw_X___o-2niKnuLJcrOKamIKYIWAuOcH3Pl/pubhtml",
-      "EIBs": [{"SKU":"OEPS-6813", "Name":"ShuttleDrive 64-ch Hirose EIB"}],
+      "EIBs": [{"SKU":"OEPS-6813", "Name":"ShuttleDrive 64ch Hirose EIB"}],
       "Adapters": [{"SKU":"OEPS-7200", "Name":"Adapter Hirose to Omnetics 64ch"}, {"SKU":"OEPS-7201", "Name":"Adapter Hirose to Omnetics 32ch"}],
       "3D": "IMU",
       "Chart": {
@@ -106,7 +106,7 @@
         "REF and GND": "REF and GND connections tied together using the R1 0-ohm jumper resistor that can be removed",
         "Mounting Features": "One 3.3 x 5.8 mm cutout",
         "Source Repo": "https://github.com/open-ephys/low-profile-headstage-64ch-3d",
-        "Release": "Revision 1.1"
+        "Revision": "1.1"
       }
     },
     {
@@ -124,7 +124,7 @@
         "Tether Connector": "12-pin SPI",
         "REF and GND": "REF and GND connections tied together using the R0 0-ohm jumper resistor that can be removed",
         "Source Repo": "https://github.com/open-ephys/vertical-profile-spi-headstage-32ch/tree/b4f33e54d2db8ce6c290a44bb6fce44c8458ad05",
-        "Release": "Revision 1.1"
+        "Revision": "1.1"
       }
     },
     {
@@ -142,7 +142,7 @@
         "Tether Connector": "12-pin SPI",
         "REF and GND": "REF and GND connections tied together using the R0 0-ohm jumper resistor that can be removed",
         "Source Repo": "https://github.com/open-ephys/vertical-profile-spi-headstage-32ch/tree/b4f33e54d2db8ce6c290a44bb6fce44c8458ad05",
-        "Release": "Revision 1.1"
+        "Revision": "1.1"
       }
     },
     {
@@ -160,7 +160,7 @@
         "Tether Connector": "12-pin SPI",
         "REF and GND": "REF and GND connections tied together using the R0 0-ohm jumper resistor that can be removed",
         "Source Repo": "https://github.com/open-ephys/vertical-profile-3d-headstage-32ch/tree/1d0a5a96fac3b563b6898d3760aa07ea882179af",
-        "Release": "Revision 1.1"
+        "Revision": "1.1"
       }
     },
     {
@@ -178,7 +178,7 @@
         "Tether Connector": "12-pin SPI",
         "REF and GND": "REF and GND connections tied together using the R0 0-ohm jumper resistor that can be removed",
         "Source Repo": "https://github.com/open-ephys/vertical-profile-3d-headstage-32ch/tree/1d0a5a96fac3b563b6898d3760aa07ea882179af",
-        "Release": "Revision 1.1"
+        "Revision": "1.1"
       }
     }
   ]

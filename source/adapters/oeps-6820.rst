@@ -1,0 +1,2 @@
+{% for adapter in adapter_data.Adapters | selectattr('SKU', 'equalto', 'OEPS-6820') %}
+{% include 'adapter.rst' %} {% endfor %}

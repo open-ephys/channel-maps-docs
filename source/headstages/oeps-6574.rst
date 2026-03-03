@@ -1,3 +1,2 @@
-
 {% for hs in hs_data.Headstages | selectattr('SKU', 'equalto', 'OEPS-6574') %} 
 {% include 'hs.rst' %} {% endfor %}

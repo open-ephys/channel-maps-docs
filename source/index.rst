@@ -8,34 +8,16 @@ Usage manuals for each device are in the `documentation sites <https://open-ephy
 
 
 .. rubric:: Headstages
-
+    
 .. include:: headstages/headstage-cards.rst
 
-.. Adapters - *coming soon*
-.. ===========================
+.. rubric:: EIBs
 
-.. ..  grid:: 4
-..     :gutter: 4
+.. include:: eibs/eib-cards.rst
 
-..     ..  grid-item-card:: OEPS-7200 Adapter Hirose to Omnetics 64ch
-..         :link-type: ref
-..         :link: OEPS-7200
-..         :class-card: intro-card
-..         :img-top: /_static/images/OEPS-7200/main/OEPS-7200_main.jpg
-..         :img-alt: OEPS-7200
+.. rubric:: Adapters
 
-.. EIBs - Electrode Interface Boards - *coming soon*
-.. ====================================================
-
-.. ..  grid:: 4
-..     :gutter: 4
-
-..     ..  grid-item-card:: OEPS-6813 ShuttleDrive 64-ch Hirose EIB
-..         :link-type: ref
-..         :link: OEPS-6813
-..         :class-card: intro-card
-..         :img-top: /_static/images/OEPS-6813/main/OEPS-6813_main.jpg
-..         :img-alt: OEPS-6813
+.. include:: adapters/adapter-cards.rst
 
 .. toctree::
     :hidden:
@@ -44,3 +26,5 @@ Usage manuals for each device are in the `documentation sites <https://open-ephy
 
     User Guide/index
     headstages/index
+    eibs/index
+    adapters/index
