@@ -115,6 +115,14 @@ Compatible Adapters
         :width: 70%
 
         Adapter combination channel map
+
+..  dropdown:: Channel map if your data were acquired using up to version 0.4.5 of the OpenEphys.Onix1 library
+
+    ..  figure:: /_static/images/OEPS-7741/adp/OEPS-7741_OEPS-7201_channel_map_v0.4.5.jpg
+        :align: center
+        :width: 70%
+
+        Adapter combination channel map
 {% endif %}
 
 {% endif %}
