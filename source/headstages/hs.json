@@ -158,7 +158,7 @@
         "Mass": "1.1 g",
         "Probe Connector": "1x Omnetics A79025: 36 pins, 4 guide posts",
         "Tether Connector": "12-pin SPI",
-        "REF and GND": "REF and GND connections tied together using the R0 0-ohm jumper resistor that can be removed",
+        "GND": "The R0 0-ohm jumper resistor provides a connection to GND and should not be removed",
         "Source Repo": "https://github.com/open-ephys/vertical-profile-3d-headstage-32ch/tree/1d0a5a96fac3b563b6898d3760aa07ea882179af",
         "Revision": "1.1"
       }
@@ -176,7 +176,7 @@
         "Mass": "1.1 g",
         "Probe Connector": "1x Omnetics A79025: 36 pins, 4 guide posts",
         "Tether Connector": "12-pin SPI",
-        "REF and GND": "REF and GND connections tied together using the R0 0-ohm jumper resistor that can be removed",
+        "GND": "The R0 0-ohm jumper resistor provides a connection to GND and should not be removed",
         "Source Repo": "https://github.com/open-ephys/vertical-profile-3d-headstage-32ch/tree/1d0a5a96fac3b563b6898d3760aa07ea882179af",
         "Revision": "1.1"
       }
