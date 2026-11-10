@@ -9,7 +9,7 @@
         "Dimensions": "19 mm, 9.13 mm, 8.35 mm tall",
         "Mass": "1.03 g",
         "Additional vias": "A, C0, C1 and ES",
-        "Connector": "2x 36-pin Omnetics A79025, placed at a distance of 0.914 mm (between both inner walls of the omnetics connectors)",
+        "Connector": "2x 36-pin Omnetics A79025, placed at a distance of 0.914 mm (between both inner walls of the Omnetics connectors)",
         "Mating Connector": "2x 36-pin Omnetics A79026",
         "Source Repo": "https://github.com/open-ephys/adapter-hirose-omnetics-64/tree/main",
         "Revision": "1.0",

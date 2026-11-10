@@ -44,7 +44,7 @@
         "Mass": "0.69 g",
         "Gold pin vias": "Small: 0.3 mm",
         "Additional features": "One hole for 0.70 mm fiber optic ferrule",
-        "Connector": "2x 36-pin Omnetics A79026, placed at a distance of 0.914 mm (between both inner walls of the omnetics connectors)",
+        "Connector": "2x 36-pin Omnetics A79026, placed at a distance of 0.914 mm (between both inner walls of the Omnetics connectors)",
         "Mating Connector": "2x 36-pin Omnetics A79025",
         "Source Repo": "https://github.com/open-ephys/shuttle-drive/tree/master/small_16drives/EIBs/eib-64-intan-hs",
         "Revision": "1.0",
